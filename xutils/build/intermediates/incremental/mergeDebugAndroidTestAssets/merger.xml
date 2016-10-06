@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="D:\Work\Git\PMS\xutils\build\intermediates\exploded-aar\PMS\android-support-v7-appcompat\unspecified\assets"/></dataSet><dataSet config="debug"><source path="D:\Work\Git\PMS\xutils\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="D:\Work\Git\PMS\xutils\src\androidTest\assets"/><source path="D:\Work\Git\PMS\xutils\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>

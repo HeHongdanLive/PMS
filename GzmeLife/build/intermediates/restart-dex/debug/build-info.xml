@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="xhdpi"
+    format="7"
+    timestamp="9292157022584"
+    token="637121874389711194" >
+
+    <task
+        name="javac"
+        duration="28358" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="76654" />
+    <task
+        name="verifier"
+        duration="11956" />
+
+    <artifact
+        location="D:\Program Files\Android\workspace\PMS_AS_20160929\GzmeLife\build\outputs\apk\GzmeLife-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="9292157022584" >
+        <artifact
+            location="D:\Program Files\Android\workspace\PMS_AS_20160929\GzmeLife\build\outputs\apk\GzmeLife-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/.svn/**" kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/swipemenulistview.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jpush-android-2.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/zxing.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/MobTools-2016.0401.1602.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/gson-2.2.4.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/EspTouch_Demo"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/gridlayout"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/library"/>
+	<classpathentry exported="true" kind="lib" path="libs/umeng-update-v2.6.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/universal-image-loader-1.9.3.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/android-support-v7-appcompat"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/xutils"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/recyclerview"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

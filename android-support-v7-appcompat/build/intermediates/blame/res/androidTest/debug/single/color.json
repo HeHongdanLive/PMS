@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_search_url_text.xml",
+        "source": "D:\\Work\\Git\\PMS\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    }
+]

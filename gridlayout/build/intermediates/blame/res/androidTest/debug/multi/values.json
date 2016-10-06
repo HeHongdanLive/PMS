@@ -1,0 +1,74 @@
+[
+    {
+        "outputFile": "D:\\Work\\Git\\PMS\\gridlayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1751,
+                    "endColumn": 42,
+                    "endOffset": 1789
+                },
+                "from": {
+                    "file": "D:\\Work\\Git\\PMS\\gridlayout\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 1751,
+                        "endColumn": 42,
+                        "endOffset": 1789
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\gridlayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1751,
+                    "endColumn": 42,
+                    "endOffset": 1789
+                },
+                "from": {
+                    "file": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\gridlayout\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 1751,
+                        "endColumn": 42,
+                        "endOffset": 1789
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\gridlayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1751,
+                    "endColumn": 42,
+                    "endOffset": 1789
+                },
+                "from": {
+                    "file": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\gridlayout\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 1751,
+                        "endColumn": 42,
+                        "endOffset": 1789
+                    }
+                }
+            }
+        ]
+    }
+]

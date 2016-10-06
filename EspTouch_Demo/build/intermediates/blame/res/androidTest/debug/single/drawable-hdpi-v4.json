@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\EspTouch_Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher1.png",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\EspTouch_Demo\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher1.png"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\EspTouch_Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\app_icon.png",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\EspTouch_Demo\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\app_icon.png"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\EspTouch_Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\app_icon.png",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\EspTouch_Demo\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\app_icon.png"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\EspTouch_Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher1.png",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\EspTouch_Demo\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher1.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\EspTouch_Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\app_icon.png",
+        "source": "D:\\Work\\Git\\PMS\\EspTouch_Demo\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\app_icon.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\EspTouch_Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher1.png",
+        "source": "D:\\Work\\Git\\PMS\\EspTouch_Demo\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher1.png"
+    }
+]

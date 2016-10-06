@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\EspTouch_Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\EspTouch_Demo\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\EspTouch_Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\EspTouch_Demo\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\EspTouch_Demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
+        "source": "D:\\Work\\Git\\PMS\\EspTouch_Demo\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+    }
+]
