@@ -1,0 +1,10 @@
+﻿# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#Java
+*.class
+*.jar
+*.war
+*.ear

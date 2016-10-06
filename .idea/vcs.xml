@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android-PullToRefresh" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/EspTouch_Demo" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/GzmeLife" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/android-support-v7-appcompat" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/gridlayout" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/library" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/recyclerview" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/social_sdk_library_project" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/xutils" vcs="svn" />
+  </component>
+</project>
