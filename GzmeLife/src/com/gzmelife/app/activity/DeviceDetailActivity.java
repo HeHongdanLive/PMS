@@ -64,9 +64,13 @@ public class DeviceDetailActivity extends BaseActivity {
 		initView();
 	}
 	
+	
 	@Override
 	protected void onResume() {
 		super.onResume();
+		//接收PSM数据**********************************************************************************
+//		socketTool.receiveMessage();
+		//接收PSM数据**********************************************************************************
 		getDeviceInfo();
 	}
 	

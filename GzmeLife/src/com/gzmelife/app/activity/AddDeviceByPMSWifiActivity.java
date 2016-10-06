@@ -64,12 +64,19 @@ public class AddDeviceByPMSWifiActivity extends BaseActivity {
 		
 		init();
 		initView();
-		
-		
 	}
 
 	private void init() {
 		context = this;
+	}
+	
+	
+	@Override
+	protected void onResume() {
+		super.onResume();
+		//接收PSM数据**********************************************************************************
+//		socketTool.receiveMessage();
+		//接收PSM数据**********************************************************************************
 	}
 	
 	@Override

@@ -14,6 +14,8 @@ public class Config {
 	public static int position = 0; // 本地文件位置
 	public static boolean isConnext = false; // 设备连接状态
 
+	public static boolean isOtherFile = false;//20160927其他用户在上下载数据
+	
 	public static String Id = null;//推送的自定消息ID
 	public static String Name = null;//菜谱名称
 	public static String NewName = null; //新的菜谱名称
@@ -77,13 +79,24 @@ public class Config {
 	// 02 发送/响应帧 录波发送结束
 	public static byte[] bufFileStop = { (byte) 0xF4, 0x02 };
 
+	/**
+	 * 下载（上送）录波数据：F4 01
+	 */
 	public static byte[] bufFileAck = { (byte) 0xF4, 0x01 };// ok
 
-	// F5 00 发送/确认帧 下发录波文件大小 下发录波文件
+	/**
+	 *  F5 00 发送/确认帧 下发录波文件大小 下发录波文件
+	 */
 	public static byte[] bufDownFileInfo = { (byte) 0xF5, 0x00 };
-	// 01 发送/确认帧 下发录波数据
+	
+	/**
+	 * F5 01 发送/确认帧 下发录波数据
+	 */
 	public static byte[] bufDownFileData = { (byte) 0xF5, 0x01 };
-	// 02 发送/确认帧 数据发送结束
+	
+	/**
+	 *  02 发送/确认帧 数据发送结束
+	 */
 	public static byte[] bufDownFileStop = { (byte) 0xF5, 0x02 };
 
 	// F6 00 发送/确认帧 删除装置生成录波文件操作 删除文件
@@ -94,7 +107,9 @@ public class Config {
 	// F7 00 发送/响应帧 查询状态，包括功率、温度等
 	public static byte[] bufStatus = { (byte) 0xF7, 0x00 };
 
-	// F8 00 发送/响应帧 连接确认报文，回复PMS的MAC
+	/**
+	 *  F8 00 发送/响应帧 连接确认报文，回复PMS的MAC
+	 */
 	public static byte[] bufConnect = { (byte) 0xF8, 0x00 };
 	// 01 发送/响应帧 非主客户端抢占控制权，成为主客户端。 无效，只能连接一个手机，后面连接的自动得到控制权
 	//	public static byte[] bufGrap = { (byte) 0xF8, 0x01 };

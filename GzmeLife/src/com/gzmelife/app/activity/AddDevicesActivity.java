@@ -111,6 +111,9 @@ public class AddDevicesActivity extends BaseActivity {
 	
 	private void connect() {
 		socketTool.PMS_Send(Config.bufConnect);
+		//接收PSM数据**********************************************************************************
+//		socketTool.receiveMessage();
+		//接收PSM数据**********************************************************************************
 	}
 
 	private void initView() {
@@ -120,7 +123,15 @@ public class AddDevicesActivity extends BaseActivity {
 		tv_title_left.setVisibility(View.VISIBLE);
 		tv_title_left.setText("设备中心");
 	}
-
+	
+	
+	@Override
+	protected void onResume() {
+		super.onResume();
+		//接收PSM数据**********************************************************************************
+//		socketTool.receiveMessage();
+		//接收PSM数据**********************************************************************************
+	}
 	private void getDevices() {
 		// 连接wifi的状况下，获取局域网内电磁炉
 		if (!TextUtils.isEmpty(new EspWifiAdminSimple(this).getWifiConnectedSsid())) {

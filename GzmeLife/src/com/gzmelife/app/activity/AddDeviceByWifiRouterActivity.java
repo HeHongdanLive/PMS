@@ -60,6 +60,14 @@ public class AddDeviceByWifiRouterActivity extends BaseActivity implements
 		mWifiAdmin = new EspWifiAdminSimple(this);
 	}
 
+	
+	@Override
+	protected void onResume() {
+		super.onResume();
+		//接收PSM数据**********************************************************************************
+//		socketTool.receiveMessage();
+		//接收PSM数据**********************************************************************************
+	}
 	private void initView() {
 		tv_title.setText("无线路由器");
 		et_ssid.setText(mWifiAdmin.getWifiConnectedSsid());

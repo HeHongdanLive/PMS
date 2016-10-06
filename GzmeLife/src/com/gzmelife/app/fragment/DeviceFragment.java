@@ -69,6 +69,7 @@ import com.gzmelife.app.tools.ShowDialogUtil;
 import com.gzmelife.app.tools.WifiUtil;
 import com.gzmelife.app.views.TipConfirmView;
 
+//20160913
 @SuppressLint("InflateParams")
 public class DeviceFragment extends Fragment {
 	private String TAG="DeviceFragment";
@@ -137,8 +138,7 @@ public class DeviceFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		Log.i(TAG, "onCreateView-->");
-		return LayoutInflater.from(getActivity()).inflate(
-				R.layout.fragment_device, null);
+		return LayoutInflater.from(getActivity()).inflate(R.layout.fragment_device, null);
 	}
 
 	@Override
@@ -149,10 +149,10 @@ public class DeviceFragment extends Fragment {
 		activity = (MainActivity) this.getActivity();
 		initView();
 		IntentFilter intentFilter = new IntentFilter();
-		intentFilter.addAction(KappUtils.ACTION_PMS_STATUS);
+		intentFilter.addAction(KappUtils.ACTION_PMS_STATUS);//20160919发送设备状态的广播
 		// intentFilter.addCategory();
 		broadcastManager = LocalBroadcastManager.getInstance(getActivity());
-		broadcastManager.registerReceiver(receiver, intentFilter);
+		broadcastManager.registerReceiver(receiver, intentFilter);//20160919接收设备状态的广播
 	}
 	private class EffectInVisiableHandler extends Handler
     {
@@ -181,7 +181,7 @@ public class DeviceFragment extends Fragment {
           Message msg = mtimeHandler.obtainMessage(MOBILE_QUERY);
           mtimeHandler.sendMessageDelayed(msg, 10000);            
       }
-	BroadcastReceiver receiver = new BroadcastReceiver() {
+	BroadcastReceiver receiver = new BroadcastReceiver() {//20160919接收设备状态的广播
 		@Override
 		public void onReceive(Context context, Intent intent) {
 			String action = intent.getAction();
@@ -204,27 +204,25 @@ public class DeviceFragment extends Fragment {
 		view_selfFile = getView().findViewById(R.id.view_selfFile);
 		view_downFile = getView().findViewById(R.id.view_downFile);
 
-		int normal = DensityUtil.dip2px(context, 12);
+		int normal = DensityUtil.dip2px(context, 12);//20160913左右上角按钮应统一封装在Bar上
 		iv_titleLeft.setPadding(normal, normal, normal, normal);
 		iv_titleRight.setImageResource(R.drawable.icon01);
 
 		lv_file = (ListView) getView().findViewById(R.id.lv_file);
 		lv_pms = (ListView) getView().findViewById(R.id.lv_pms);
 
-		deviceAdapter = new DeviceCenterAdapter(context, deviceList);
-		lv_pms.setAdapter(deviceAdapter);
-		lv_pms.setOnItemClickListener(new OnItemClickListener() {
+		deviceAdapter = new DeviceCenterAdapter(context, deviceList);//20160920设置设备中心适配器数据
+		lv_pms.setAdapter(deviceAdapter);//20160920添加数据到列表
+		lv_pms.setOnItemClickListener(new OnItemClickListener() {//20160919设备列表（短）点击事件
 			@Override
-			public void onItemClick(AdapterView<?> parent, View view,
-					int position, long id) {
+			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				connectDeviceBean = deviceList.get(position);
 				h.sendEmptyMessage(2);
 			}
 		});
-		lv_pms.setOnItemLongClickListener(new OnItemLongClickListener() {
+		lv_pms.setOnItemLongClickListener(new OnItemLongClickListener() {//20160919设备列表（长）点击事件
 			@Override
-			public boolean onItemLongClick(AdapterView<?> parent, View view,
-					int position, long id) {
+			public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
 				deletePMSDevice(position);
 				return true;
 			}
@@ -236,7 +234,7 @@ public class DeviceFragment extends Fragment {
 //			rb_downFile.setChecked(true);
 //			rb_selfFile.setChecked(false);
 //		}
-		rb_selfFile.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+		rb_selfFile.setOnCheckedChangeListener(new OnCheckedChangeListener() {//20160919录波文件点击事件
 			@Override
 			public void onCheckedChanged(CompoundButton buttonView,
 					boolean isChecked) {
@@ -277,7 +275,7 @@ public class DeviceFragment extends Fragment {
 							public void run() {
 								Looper.prepare();
 								try {
-									socketTool.closeSocket();
+									socketTool.closeSocket();//20160913理解为关闭之前连接才能创建下面的连接
 									socketTool.initClientSocket(); // 根据不同的ip，建立不同的socket
 //									if (!socketTool.isStartHeartTimer()) {// 根据不同的ip，建立不同的socket
 										socketTool.startHeartTimer();
@@ -290,7 +288,7 @@ public class DeviceFragment extends Fragment {
 								// socketTool.startHeartTimer();
 								// System.out.print("----发送心跳包----");
 								// }
-								byte[] bufFilePath = { 0x00 };
+								byte[] bufFilePath = { 0x00 };//20160913
 								System.out.print("----请求录波文件总数3333333----");
 								fileFlag = true;
 								selfFileList.clear();
@@ -299,8 +297,7 @@ public class DeviceFragment extends Fragment {
 										&& !bufFilePath.equals("")
 										&& !Config.bufGetFileNum.equals("")) {
 									try {
-										socketTool.PMS_Send(Config.bufGetFileNum,
-												bufFilePath);
+										socketTool.PMS_Send(Config.bufGetFileNum, bufFilePath);
 									} catch (Exception e) {
 										// TODO: handle exception
 									}
@@ -322,7 +319,7 @@ public class DeviceFragment extends Fragment {
 				}
 			}
 		});
-		rb_downFile.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+		rb_downFile.setOnCheckedChangeListener(new OnCheckedChangeListener() {//20160919菜谱文件点击事件
 			@Override
 			public void onCheckedChanged(CompoundButton buttonView,
 					boolean isChecked) {
@@ -389,8 +386,7 @@ public class DeviceFragment extends Fragment {
 								final byte[] bufFilePath = { 0x01 };
 								fileFlag = false;
 								downFileList.clear();
-								socketTool.PMS_Send(Config.bufGetFileNum,
-										bufFilePath);
+								socketTool.PMS_Send(Config.bufGetFileNum, bufFilePath);
 								System.out.print("----发送4444----");
 								// getPMSDownFileNum();
 								Looper.loop();
@@ -477,20 +473,17 @@ private void getInfo(){
 		connectPMS();
 	}else {
 //		showToast("木有这个权限");
-		KappUtils.showToast(context,
-				
-						"没有wifi权限");
+		KappUtils.showToast(context, "没有wifi权限");
 	}
 }
 	
 	private void initSocketTool() {
 		Log.i(TAG, "initSocketTool");
 		if (socketTool == null) {
-			socketTool = new SocketTool(context, activity,
-					new SocketTool.OnReceiver() {
+			socketTool = new SocketTool(context, activity, new SocketTool.OnReceiver() {//20160923实例化SocketTool//实现接收数据接口
 						@Override
-						public void onSuccess(List<String> cookBookFileList,
-								int flag, int now, int all) {
+						public void onSuccess(List<String> cookBookFileList, int flag, int now, int all) {
+							//flag 0: 不处理，1：下载成功，2：下载失败,3:下载数据的百分比,4:连接成功,5:删除文件成功，6：获取设备状态成功, 7 :传文件到智能锅成功，8：传文件到智能锅的百分比 ,9:对时功能
 							Log.i(TAG,"initSocketTool-->onSuccess"+String.valueOf(flag));
 							switch (flag) {
 							
@@ -508,7 +501,7 @@ private void getInfo(){
 									}else{
 										KappUtils.showToast(context, "暂无录波文件");
 									}
-									selfAdapter.notifyDataSetChanged();
+									selfAdapter.notifyDataSetChanged();//20160919更新列表数据
 									
 									System.out.print("----收到录波文件刷新列表----");
 									// socketTool.PMS_Send(Config.bufStatus);
@@ -572,6 +565,7 @@ private void getInfo(){
 
 						@Override
 						public void onFailure(int flag) {
+							//20160919flag 默认为0;-1：下载文件，文件大小=0;
 							if (!TextUtils.isEmpty(deleteFileName)) {
 								handler.sendEmptyMessage(3);
 							}
@@ -585,7 +579,7 @@ private void getInfo(){
 								break;
 							}
 						}
-					});
+			});
 		}
 	}
 
@@ -602,53 +596,53 @@ private void getInfo(){
 	        return false ;
 	    }
 	
-	private void connectPMS() {
+	private void connectPMS() {//20160919连接设备业务
 	 	Log.i(TAG, "connectPMS-->");
 		// 拿到PMS信息，判断当前网络下是否有那个wifi，有的话则连接上wifi，然后判断PMS的ip是否存在，然后与PMS连接
-		boolean isOpenWifi = WifiUtil.openWifi(context);
+		boolean isOpenWifi = WifiUtil.openWifi(context);//20160919标记wifi开关状态
 		if (!isOpenWifi) {
-			while (!WifiUtil.isEnable(context)) {
+			while (!WifiUtil.isEnable(context)) {//20160919wifi未开启
 				Log.i(TAG, "connectPMS-->开启wifi中");
 				MyLog.d("开启wifi中");
 				try {
-					Thread.sleep(1500);
+					Thread.sleep(1500);//20160919暂停执行
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
 			}
-			WifiUtil.startScan();
+			WifiUtil.startScan();//20160919扫描wifi
 			try {
 				Thread.sleep(2000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
-
-		List<WifiConfiguration> wifiTempList = WifiUtil
-				.getWifiConfigurationList();
-		boolean isExist = false;
+		//20160919在设备wifi局域网（获取wifi信息）
+		List<WifiConfiguration> wifiTempList = WifiUtil.getWifiConfigurationList();//20160919已连过wifi
+		boolean isExist = false;//20160919标记wifi是否存在
 		for (int i = 0; i < wifiTempList.size(); i++) {
-			WifiConfiguration wifiConfiguration = wifiTempList.get(i);
-			String str=wifiConfiguration.SSID.substring(1, wifiConfiguration.SSID.length()-1);
+			WifiConfiguration wifiConfiguration = wifiTempList.get(i);//20160919获取wifi信息
+			String str=wifiConfiguration.SSID.substring(1, wifiConfiguration.SSID.length()-1);//20160919去掉wifi名称的引号部分
+
+			//20160919通过直接连接
 			if (str.equals(connectDeviceBean.getWifiName())) { // 当前可以连接指定wifi
 				isExist = true;
-				WifiUtil.connectWifi(wifiConfiguration, true);
+				WifiUtil.connectWifi(wifiConfiguration, true);//20160919连接选定网络，禁用其他网络被
 				Log.i(TAG, "connectPMS-->WifiUtil.connectWifi(wifiConfiguration, true)-->wifiName:;"+connectDeviceBean.getWifiName());
 				Log.i(TAG, "h.sendEmptyMessage(0);");
 				h.sendEmptyMessage(0);
 				break;
 			}
 
+			//20160919通过路由器连接
 			if (i == wifiTempList.size() - 1) {
 				List<ScanResult> wifiScanList = WifiUtil.getWifiList();
 				for (int j = 0; j < wifiScanList.size(); j++) {
 					ScanResult scanResult = wifiScanList.get(j);
-					if (scanResult.SSID.equals(connectDeviceBean.getWifiName())
-							&& scanResult.capabilities.contains("[ESS]")) {
+					if (scanResult.SSID.equals(connectDeviceBean.getWifiName()) && scanResult.capabilities.contains("[ESS]")) {//20160919contains：是否包含//ESS：扩展服务集（ESS）
 						isExist = true;
 						WifiUtil.connectWifi(scanResult.SSID, true);
-						Log.i(TAG, "connectPMS-->WifiUtil.connectWifi(wifiConfiguration, true),"
-								+ "最后一个wifiTempList-->wifiName:;"+connectDeviceBean.getWifiName());
+						Log.i(TAG, "connectPMS-->WifiUtil.connectWifi(wifiConfiguration, true)," + "最后一个wifiTempList-->wifiName:;"+connectDeviceBean.getWifiName());
 						Log.i(TAG, "h.sendEmptyMessage(0);");
 						h.sendEmptyMessage(0);
 						break;
@@ -658,35 +652,27 @@ private void getInfo(){
 		}
 
 		if (!isExist) {
-			KappUtils.showToast(context,
-					"wifi：" + connectDeviceBean.getWifiName()
-							+ "不在范围内或已被清除配置信息");
+			KappUtils.showToast(context, "wifi：" + connectDeviceBean.getWifiName() + "不在范围内或已被清除配置信息");
 			closeDlg();
 		}
 	}
 
-	private void deletePMSDevice(int position) {
-		final DeviceNameAndIPBean bean = deviceList.get(position);
-		TipConfirmView.showConfirmDialog(
-				context,
-				"是否确认删除Wifi为\"" + bean.getWifiName() + "\"网络下的设备\""
-						+ bean.getName() + "\"？", new OnClickListener() {
+	private void deletePMSDevice(int position) {//20160919（长）点击删除设备
+		final DeviceNameAndIPBean bean = deviceList.get(position);//20160919列表上选中的设备信息
+		TipConfirmView.showConfirmDialog(context, "是否确认删除Wifi为\"" + bean.getWifiName() + "\"网络下的设备\"" + bean.getName() + "\"？", new OnClickListener() {
 					@Override
 					public void onClick(View v) {
 						TipConfirmView.dismiss();
-						if (new DevicesDAO().deleteDeviceById(bean.getId())) {
+						if (new DevicesDAO().deleteDeviceById(bean.getId())) {//20160919根据数据库PMS的Id删除设备
 							showDeviceList();
-							DeviceNameAndIPBean bean2 = SharedPreferenceUtil
-									.getPmsInfo(context);
-							if (bean.getName() != null
-									&& bean2.getName() != null) {
-								if (bean.getName().equals(bean2.getName())
-										&& bean.getIp().equals(bean2.getIp())
-										&& bean.getWifiName().equals(
-												bean2.getWifiName())) {
+							DeviceNameAndIPBean bean2 = SharedPreferenceUtil.getPmsInfo(context);//20160919存储在SP上的设备信息
+							if (bean.getName() != null && bean2.getName() != null) {//20160919
+								if (bean.getName().equals(bean2.getName())//20160919对比设备名称（选中对比SP）
+										&& bean.getIp().equals(bean2.getIp())//20160919对比设备IP
+										&& bean.getWifiName().equals(bean2.getWifiName())) //20160919对比设备wifi名
+								{
 									bean2 = new DeviceNameAndIPBean();
-									SharedPreferenceUtil.setPmsInfo(context,
-											bean2);
+									SharedPreferenceUtil.setPmsInfo(context, bean2);//20160919存储SP的设备信息置空
 									KappUtils.showToast(context, "删除成功");
 								}
 							}
@@ -734,71 +720,60 @@ private void getInfo(){
 		@Override
 		public boolean handleMessage(final Message msg) {
 			switch (msg.what) {
-			case 0:
+			case 0://20160914自动扫描连接设备（//通过直接连接或路由器连接）
 				Log.i(TAG, "h-->0-->");
 				OnEvent onEvent = new OnEvent() {
 					@Override
-					public void onTick(long millisUntilFinished) {
+					public void onTick(long millisUntilFinished) {//20160919发起倒计时（millisUntilFinished倒计时的剩余时间）
 						Log.i(TAG, "h-->0-->"+"onTick ." + millisUntilFinished);
 						MyLog.d("onTick ." + millisUntilFinished);
-						if (WifiUtil.getWifiInfo() != null
-								&& connectDeviceBean != null
-								&& !TextUtils.isEmpty(new EspWifiAdminSimple(
-										context).getWifiConnectedSsid())
-								&& WifiUtil
-										.getWifiInfo()
-										.getSSID()
-										.equals("\""
-												+ connectDeviceBean
-														.getWifiName() + "\"")) {
+						if (WifiUtil.getWifiInfo() != null//20160919连接网络信息不为空
+								&& connectDeviceBean != null//20160919设备的名称和IP不为空
+								&& !TextUtils.isEmpty(new EspWifiAdminSimple(context).getWifiConnectedSsid())//20160919SSID不为空//获取活跃状态或在建立中wifi的SSID
+								&& WifiUtil.getWifiInfo().getSSID().equals("\"" + connectDeviceBean.getWifiName() + "\""))//20160919连接的wifi和设备的wifi相同
+						{
 							KappUtils.showToast(context, "连接wifi成功");
 							MyLog.d("onTick 连接wifi成功." + millisUntilFinished);
 							Log.i(TAG, "h.sendEmptyMessage(1);");
-							h.sendEmptyMessage(1);
+							h.sendEmptyMessage(1);//20160919获取本机IP
 						}
 					}
 
 					@Override
-					public void onFinish() {
+					public void onFinish() {//20160919倒计时结束后会调用onFinish，倒计时结束后需要执行的操作
 						Log.i(TAG, "h-->0-->"+"onFinish ." );
 						if (WifiUtil.getWifiInfo() != null
 								&& connectDeviceBean != null
-								&& !TextUtils.isEmpty(new EspWifiAdminSimple(
-										context).getWifiConnectedSsid())
-								&& WifiUtil
-										.getWifiInfo()
-										.getSSID()
-										.equals("\""
-												+ connectDeviceBean
-														.getWifiName() + "\"")) {
+								&& !TextUtils.isEmpty(new EspWifiAdminSimple(context).getWifiConnectedSsid())
+								&& WifiUtil.getWifiInfo().getSSID().equals("\"" + connectDeviceBean.getWifiName() + "\"")) {
 							KappUtils.showToast(context, "连接wifi成功");
-							iv_titleLeft.setImageResource(R.drawable.icon04);
+							iv_titleLeft.setImageResource(R.drawable.icon04);//20160919图标
 							Log.i(TAG, "h.sendEmptyMessage(1);");
-							h.sendEmptyMessage(1);
+							h.sendEmptyMessage(1);//20160914连接wifi成功
 						} else {
-							if (connectDeviceBean != null) {
+							if (connectDeviceBean != null) {//20160919倒计时结束后没获取到所需信息则连接失败
 								KappUtils.showToast(context, "连接wifi失败");
 								connectDeviceBean = null;
 							}
 						}
 					}
 				};
-				outTime = new TimeCountOut(1000 * 15, 1000, onEvent);
+				outTime = new TimeCountOut(1000 * 15, 1000, onEvent);//20160919重新发起计时
 				outTime.start();
 				break;
-			case 1:
+			case 1://20160919获取本机IP
 				Log.i(TAG, "h-->1-->");
-				KappUtils.getLocalIP(context);
+				KappUtils.getLocalIP(context);//20160919获取本机IP
 				if (outTime != null) {
-					outTime.cancel();
+					outTime.cancel();//20160919取消计时
 					outTime = null;
 				}
-				Config.SERVER_HOST_IP = connectDeviceBean.getIp();
+				Config.SERVER_HOST_IP = connectDeviceBean.getIp();//20160919给设备赋值真正IP地址
 				// 倒计时10秒，10秒内没有指令与PMS连接成功，则给出提示，且去掉转圈
-				outtime = new TimeCountOut(10 * 1000, 1000, new OnEvent() {
+				outtime = new TimeCountOut(10 * 1000, 1000, new OnEvent() {//20160919开始倒计时（10秒）
 					@Override
 					public void onFinish() {
-						handler.sendEmptyMessage(0);
+						handler.sendEmptyMessage(0);//20160914连接失败
 					}
 
 					@Override
@@ -806,14 +781,23 @@ private void getInfo(){
 					}
 				});
 
-				initSocketTool();
+				initSocketTool();//20160919加载连接设备的数据
+
+				//连接PSM**********************************************************************************
 				socketTool.firstConnect(); // 根据不同的ip，建立不同的socket
-				outtime.start();
+				//连接PSM**********************************************************************************
+
+				outtime.start();//20160919开始倒计时
+
+				//接收PSM数据**********************************************************************************
+//				socketTool.receiveMessage();
+				//接收PSM数据**********************************************************************************
+
 				break;
-			case 2:
+			case 2://20160919点击设备列表连接设备
 				Log.i(TAG, "h-->2-->");
-				showDlg();
-				connectPMS();
+				showDlg();//20160919显示转圈
+				connectPMS();//20160919连接设备
 //				getInfo();
 				
 				break;
@@ -839,8 +823,7 @@ private void getInfo(){
 		if (null != this && null != dlg && !dlg.isShowing()) {
 			dlg.show();
 		} else if (null != this && null == dlg) {
-			dlg = ShowDialogUtil.getShowDialog(activity,
-					R.layout.dialog_progressbar, 0, 0, true);
+			dlg = ShowDialogUtil.getShowDialog(activity, R.layout.dialog_progressbar, 0, 0, true);
 		}
 	}
 
@@ -862,7 +845,7 @@ private void getInfo(){
 			switch (msg.what) {
 			case -1:
 				break;
-			case 0:
+			case 0://20160914连接失败业务
 				if (pDlg != null && pDlg.isShowing()) {
 					KappUtils.showToast(context, "文件下载失败");
 				}
@@ -872,24 +855,23 @@ private void getInfo(){
 						outtime = null;
 					}
 					MyLog.d("与PMS的指令连接失败,清除connectDeviceBean");
-					Config.isConnext = false;
-					updatePmsStatus();
+					Config.isConnext = false;//20160913设备离线
+					updatePmsStatus();//20160919更新离（在）线图标
 					KappUtils.showToast(context, "与PMS的指令连接失败");
-					connectDeviceBean = null;
-					Config.SERVER_HOST_NAME = "";
+					connectDeviceBean = null;//20160919连接设备名称和IP置空
+					Config.SERVER_HOST_NAME = "";//20160919服务器名称置空
 				}
 				if (TextUtils.isEmpty(Config.SERVER_HOST_NAME)) {
-					showDeviceList();
+					showDeviceList();//20160919显示（之前连接过）设备列表
 				}
 				if(dlg!=null)
 					dlg.dismiss();
 				break;
-			case 1:
+			case 1://20160914下载成功业务
 				closePDlg();
 				KappUtils.showToast(context, "下载成功");
 				downLoadState = false;
-				Intent intent = new Intent(context,
-						CookBookDetailActivity.class);
+				Intent intent = new Intent(context, CookBookDetailActivity.class);
 				intent.putExtra("filePath", DeviceFragment.saveFileName);
 				DeviceFragment.saveFileName = "";
 				startActivity(intent);
@@ -897,16 +879,14 @@ private void getInfo(){
 			case 2: // PMS连接成功
 				KappUtils.showToast(context, "与PMS连接成功");
 				try {
-					socketTool.PMS_Send(Config.bufSetTime,
-							new DateUtil().getCurrentTime());
-					System.out.print("----对时功能1----"
-							+ new DateUtil().getCurrentTime());
+					socketTool.PMS_Send(Config.bufSetTime, new DateUtil().getCurrentTime());
+					System.out.print("----对时功能1----" + new DateUtil().getCurrentTime());
 					KappAppliction.state = 1;
 					if (connectDeviceBean != null) {
 						Config.SERVER_HOST_NAME = connectDeviceBean.getName();
 						connectDeviceBean = null;
 					}
-					Config.isConnext = true;
+					Config.isConnext = true;//20160913设备在线
 					updatePmsStatus();
 				} catch (Exception e) {
 					// TODO: handle exception
@@ -940,28 +920,27 @@ private void getInfo(){
 		}
 	}
 
-	private void showDeviceList() {
+	private void showDeviceList() {//20160919显示（之前连接过）设备列表
 		Log.i(TAG, "showDeviceList-->");
-		tv_title.setText("我的设备中心");
-		btn_titleRight.setVisibility(View.GONE);
-		updatePmsStatus();
-		iv_titleRight.setVisibility(View.VISIBLE);
-		layout_connected.setVisibility(View.GONE);
-		List<DeviceNameAndIPBean> deviceListTemp = new DevicesDAO()
-				.getAllDevices();
+		tv_title.setText("我的设备中心");//20160919“标题”改变为“我的设备中心”
+		btn_titleRight.setVisibility(View.GONE);//20160919隐藏“保存”按钮
+		updatePmsStatus();//20160920更新PMS设备（图标）状态
+		iv_titleRight.setVisibility(View.VISIBLE);//20160920右上角图标看见
+		layout_connected.setVisibility(View.GONE);//20160920隐藏录波/菜谱文件
+		List<DeviceNameAndIPBean> deviceListTemp = new DevicesDAO().getAllDevices();//20160920查询所有PMS设备
 		
 		if (deviceListTemp == null || deviceListTemp.size() == 0) { // 本地没有设备数据
 			Log.i(TAG, "deviceListTemp.size-->本地没有设备数据");
-			layout_no_device.setVisibility(View.VISIBLE);
-			layout_devices.setVisibility(View.GONE);
+			layout_no_device.setVisibility(View.VISIBLE);//20160920显示没有设备界面
+			layout_devices.setVisibility(View.GONE);//20160920隐藏设备列表界面
 		} else {
 			layout_no_device.setVisibility(View.GONE);
 			layout_devices.setVisibility(View.VISIBLE);
-			deviceList.clear();
-			deviceList.addAll(deviceListTemp);			
+			deviceList.clear();//20160920清空设备列表
+			deviceList.addAll(deviceListTemp);//20160920加载设备列表数据
 			Log.i(TAG, "deviceListTemp.size-->"+String.valueOf(deviceListTemp.size()));
 			Log.i(TAG, "deviceList-->"+"重新插入并更新");
-			deviceAdapter.notifyDataSetChanged();
+			deviceAdapter.notifyDataSetChanged();//20160920更新设备中心适配器数据
 		}
 	}
 
@@ -999,34 +978,33 @@ private void getInfo(){
 		}
 	}
 
+	//20160919
 	public static boolean isClearList = false;
-
 	private void clearList() {
 		Log.i(TAG, "clearList-->");
 		if (isClearList) {
 			isClearList = false;
 			socketTool = null;
-			rb_selfFile.setChecked(true);
-			selfFileList.clear();
-			downFileList.clear();
+			rb_selfFile.setChecked(true);//20160916录波文件为选中状态
+			selfFileList.clear();//20160916清空录波文件列表
+			downFileList.clear();//20160916清空菜谱文件列表
 
 			DeviceNameAndIPBean bean = new DeviceNameAndIPBean();
 			bean.setName(Config.SERVER_HOST_NAME);
-			bean.setWifiName(new EspWifiAdminSimple(context)
-					.getWifiConnectedSsid());
+			bean.setWifiName(new EspWifiAdminSimple(context).getWifiConnectedSsid());
 			bean.setIp(Config.SERVER_HOST_IP);
 			// 更新上次所连接的设备信息
 			SharedPreferenceUtil.setPmsInfo(context, bean);
-			new DevicesDAO().save(bean); // 若本地没有该连接数据，则新增保存
+			new DevicesDAO().save(bean); // 若本地（20160919数据库）没有该连接数据，则新增保存
 		}
 	}
 
-	private void updatePmsStatus() {
+	private void updatePmsStatus() {//20160919更新PMS设备状态
 		Log.i(TAG, "updatePmsStatus-->");
-		if (TextUtils.isEmpty(Config.SERVER_HOST_NAME)) {
-			iv_titleLeft.setImageResource(R.drawable.icon05);
+		if (TextUtils.isEmpty(Config.SERVER_HOST_NAME)) {//20160914服务器地址为空则为离线状态
+			iv_titleLeft.setImageResource(R.drawable.icon05);//20160914离线图标
 		} else {
-			iv_titleLeft.setImageResource(R.drawable.icon04);
+			iv_titleLeft.setImageResource(R.drawable.icon04);//20160914在线图标
 		}
 		// if(Config.isConnext==true){
 		// iv_titleLeft.setImageResource(R.drawable.icon04);
@@ -1048,68 +1026,67 @@ private void getInfo(){
 		Log.i(TAG, "onResume-->");
 		MyLog.d(MyLog.TAG_D, "DeviceFragment onResume");
 
-		if (TextUtils.isEmpty(Config.SERVER_HOST_NAME)) {
+		if (TextUtils.isEmpty(Config.SERVER_HOST_NAME)) {//20160920服务器（PMS设备）地址不为空
 			Log.i(TAG, "onResume-->Config.SERVER_HOST_NAME-->:"+Config.SERVER_HOST_NAME);
 			if (socketTool != null) {
-				socketTool.closeSocket();
+				socketTool.closeSocket();//20160920关闭Socket连接
 				Log.i(TAG, "onResume-->socketTool.closeSocket()");
-				socketTool = null;
+				socketTool = null;//20160920Socket工具置空
 			}
-			showDeviceList();
-			if (isFirst) {
+			showDeviceList();//20160920显示设备列表
+			if (isFirst) {//20160920首次连接
 				isFirst = false;
 				// 获取上次连接设备，自动连接
 				connectDeviceBean = SharedPreferenceUtil.getPmsInfo(context);
-				if (connectDeviceBean != null) {
+				if (connectDeviceBean != null) {//20160914设备名称和ip不为空就连接
 					h.sendEmptyMessage(2);
 				}
 			}
 		} else {
 			Log.i(TAG, "onResume-->Config.SERVER_HOST_NAME-->非空:");
 			
-			clearList();
+			clearList();//20160916清空两个列表
 
-			tv_title.setText(Config.SERVER_HOST_NAME);
-			btn_titleRight.setVisibility(View.VISIBLE);
-			iv_titleRight.setVisibility(View.GONE);
-			updatePmsStatus();
+			tv_title.setText(Config.SERVER_HOST_NAME);//20160920“标题”改为当前PMS设备名称
+			btn_titleRight.setVisibility(View.VISIBLE);//20160920显示右边按钮
+			iv_titleRight.setVisibility(View.GONE);//20160920隐藏右边图标
+			updatePmsStatus();////20160920更新PMS设备状态（左边图标）
 
-			layout_devices.setVisibility(View.GONE);
-			layout_no_device.setVisibility(View.GONE);
-			layout_connected.setVisibility(View.VISIBLE);
-			initSocketTool();
+			layout_devices.setVisibility(View.GONE);//20160920隐藏设备列表
+			layout_no_device.setVisibility(View.GONE);//20160920隐藏没有设备提示界面
+			layout_connected.setVisibility(View.VISIBLE);//20160920显示录波/菜谱文件
+			initSocketTool();//20160920加载Socket工具
 
-			if (!socketTool.isStartHeartTimer()) {
+			if (!socketTool.isStartHeartTimer()) {//20160920心跳计时为未启动状态
 				new Thread(new Runnable() {
 					@Override
 					public void run() {
-						Looper.prepare();
+						Looper.prepare();//20160920初始化（使用）当前线程的Looper
 					try {
 						socketTool.initClientSocket(); // 根据不同的ip，建立不同的socket
-						socketTool.startHeartTimer();
-						if (selfFileList.size() == 0
-								&& downFileList.size() == 0) {
+						socketTool.startHeartTimer();//20160920启动心跳计时
+						if (selfFileList.size() == 0 && downFileList.size() == 0) {//20160920录波&菜谱文件列表长度为0
 							System.out.print("----请求菜谱文件列表总数1----");
-							fileFlag = true;
+							fileFlag = true;//20160920录波文件
 //							showDlg();
-							getPMSSelfFileNum();
+							getPMSSelfFileNum();//20160920获取录波文件数量
 						}
-						Looper.loop();	
+						Looper.loop();//20160920运行在消息队列的线程中，一定要调用quit()结束循环
 					} catch (Exception e) {
 						// TODO: handle exception
 					}
 					}
 				}).start();
 
-			} else {
-				if (selfFileList.size() == 0 && rb_selfFile.isChecked()) {
+			} else {//20160920心跳计时为开启状态
+				if (selfFileList.size() == 0 && rb_selfFile.isChecked()) {//20160920如果录波列表为0而且为选中状态
 					final byte[] bufFilePath = { 0x00 };
 					System.out.print("----请求录波文件总数2----");
 					fileFlag = true;
 					// showDlg();
-					socketTool.PMS_Send(Config.bufGetFileNum, bufFilePath);
+					socketTool.PMS_Send(Config.bufGetFileNum, bufFilePath);//20160920获取录波文件数量
 //					showDlg();
-				} else if (rb_downFile.isChecked() && downFileList.size() == 0) {
+				} else if (rb_downFile.isChecked() && downFileList.size() == 0) {//20160920如果菜谱列表为0而且为选中状态
 					System.out.print("----请求菜谱文件列表总数2----");
 					fileFlag = false;
 					getPMSDownFileNum();
@@ -1141,21 +1118,21 @@ private void getInfo(){
 	}
 
 	private void getPMSDownFileNum() {
-		final byte[] bufFilePath = { 0x01 };
-		fileFlag = false;
-		downFileList.clear();
-		socketTool.PMS_Send(Config.bufGetFileNum, bufFilePath);
+		final byte[] bufFilePath = { 0x01 };//20160920查询录波文件列表F3 01
+		fileFlag = false;//20160920显示录波文件列表
+		downFileList.clear();//20160920清空录波文件列表
+		socketTool.PMS_Send(Config.bufGetFileNum, bufFilePath);//20160920发送指令（“F3 01”查询文件数量）
 		System.out.print("----发送1----");
 
 	}
 
 	private void getPMSSelfFileNum() { // 录波文件
 
-		final byte[] bufFilePath = { 0x00 };
-		fileFlag = true;
-		selfFileList.clear();
+		final byte[] bufFilePath = { 0x00 };//20160920数据长度
+		fileFlag = true;//20160920录波文件
+		selfFileList.clear();//20160920清空录波文件列表
 
-		socketTool.PMS_Send(Config.bufGetFileNum, bufFilePath);
+		socketTool.PMS_Send(Config.bufGetFileNum, bufFilePath);//20160920“F3 00”获取录波文件数量
 		System.out.print("----发送3----");
 
 	}
@@ -1188,8 +1165,8 @@ private void getInfo(){
 	public class TimeCountOut extends CountDownTimerUtil {
 		private OnEvent onEvent;
 
-		public TimeCountOut(long millisInFuture, long countDownInterval,
-				OnEvent onEvent2) {
+		//20160919CountDownTimer(30000, 1000)中的30000，表示倒计时时间为30秒，1000表示每隔1秒钟调用一次onTick方法
+		public TimeCountOut(long millisInFuture, long countDownInterval, OnEvent onEvent2) {
 			super(millisInFuture, countDownInterval);
 			this.onEvent = onEvent2;
 		}
@@ -1198,7 +1175,7 @@ private void getInfo(){
 		public void onFinish() {
 			closeDlg();
 			if (onEvent != null) {
-				onEvent.onFinish();
+				onEvent.onFinish();//20160919倒计时结束后会调用onFinish，倒计时结束后需要执行的操作
 			}
 		}
 
@@ -1210,10 +1187,10 @@ private void getInfo(){
 		}
 	}
 
-	public interface OnEvent {
-		void onFinish();
+	public interface OnEvent {//20160919触发事件
+		void onFinish();//20160919倒计时结束后会调用onFinish，倒计时结束后需要执行的操作
 
-		void onTick(long millisUntilFinished);
+		void onTick(long millisUntilFinished);//20160919发起倒计时（millisUntilFinished倒计时的剩余时间）
 	}
 
 	@Override

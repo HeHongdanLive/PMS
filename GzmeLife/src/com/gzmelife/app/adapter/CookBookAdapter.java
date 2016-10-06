@@ -14,6 +14,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.gzmelife.app.R;
+import com.gzmelife.app.device.Config;
+import com.gzmelife.app.views.TipConfirmView;
 
 /**
  */
@@ -70,6 +72,18 @@ public class CookBookAdapter extends BaseAdapter {
         viewHolder.iv_download.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
+
+				if (Config.isOtherFile){
+                    TipConfirmView.showConfirmDialog2(context, "其他用户正在操作文件，请几秒后再来~", new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            TipConfirmView.dismiss();
+
+                        }
+                    });
+                    return;
+                }
+				
 				if (onReceiver != null) {
 					onReceiver.onDownload(position);
 				}

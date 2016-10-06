@@ -142,9 +142,8 @@ public class FileUtils {
 				.getAuthority());
 	}
 	
-	/** *//**
+	/**
      * 文件转化为字节数组
-  
      */
     public static byte[] getBytesFromFile(File f) {
         if (f == null) {
