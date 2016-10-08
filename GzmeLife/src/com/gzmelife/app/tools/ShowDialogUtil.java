@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -21,6 +22,7 @@ import com.gzmelife.app.R;
 public class ShowDialogUtil {
 	private static ProgressBar pb_circle;
 	private static TextView tv_title;
+	private static Button btn_cancel;
 	
 	public static AlertDialog getShowDialog(Activity context, int layout,
 			int width, int height, int x, int y, boolean isclickmiss) {
@@ -54,7 +56,15 @@ public class ShowDialogUtil {
 		View note_view = inflater.inflate(layout, null);
 		pb_circle = (ProgressBar) note_view.findViewById(R.id.pb_circle);
 		tv_title = (TextView) note_view.findViewById(R.id.tv_title);
-		
+		btn_cancel = (Button) note_view.findViewById(R.id.btn_cancel);
+
+		btn_cancel.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+
+			}
+		});
+
 		dlg.show();
 		dlg.getWindow().setContentView(note_view);
 		

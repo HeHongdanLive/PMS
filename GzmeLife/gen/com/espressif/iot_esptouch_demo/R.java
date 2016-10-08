@@ -19,7 +19,7 @@ public final class R {
 		public static final int ic_launcher1 = 0x7f02006d;
 	}
 	public static final class id {
-		public static final int action_settings = 0x7f070228;
+		public static final int action_settings = 0x7f070227;
 		public static final int btnConfirm = 0x7f07015e;
 		public static final int edtApPassword = 0x7f07015b;
 		public static final int spinnerTaskResultCount = 0x7f07015d;

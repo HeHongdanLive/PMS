@@ -51,7 +51,7 @@ public final class R {
 	public static final class id {
 		public static final int both = 0x7f07004e;
 		public static final int disabled = 0x7f07004f;
-		public static final int fl_inner = 0x7f0701d3;
+		public static final int fl_inner = 0x7f0701d2;
 		public static final int flip = 0x7f070055;
 		public static final int gridview = 0x7f07000a;
 		public static final int manualOnly = 0x7f070050;
@@ -59,10 +59,10 @@ public final class R {
 		public static final int pullFromEnd = 0x7f070052;
 		public static final int pullFromStart = 0x7f070053;
 		public static final int pullUpFromBottom = 0x7f070054;
-		public static final int pull_to_refresh_image = 0x7f0701d4;
-		public static final int pull_to_refresh_progress = 0x7f0701d5;
-		public static final int pull_to_refresh_sub_text = 0x7f0701d7;
-		public static final int pull_to_refresh_text = 0x7f0701d6;
+		public static final int pull_to_refresh_image = 0x7f0701d3;
+		public static final int pull_to_refresh_progress = 0x7f0701d4;
+		public static final int pull_to_refresh_sub_text = 0x7f0701d6;
+		public static final int pull_to_refresh_text = 0x7f0701d5;
 		public static final int rotate = 0x7f070056;
 		public static final int scrollview = 0x7f07000c;
 		public static final int webview = 0x7f07000b;

@@ -77,9 +77,10 @@ import android.widget.TextView;
 
 @ContentView(R.layout.activity_cook_book_detail)
 public class CookBookDetailActivity extends BaseActivity implements OnClickListener {
+	String TAG = "CookBookDetailActivity";
+
 	@ViewInject(R.id.lv_step)
 	ListViewForScrollView lv_step;
-	String TAG = "CookBookDetailActivity";
 	@ViewInject(R.id.iv_photo)
 	ImageView iv_photo;
 	@ViewInject(R.id.et_name)
@@ -115,6 +116,7 @@ public class CookBookDetailActivity extends BaseActivity implements OnClickListe
 	private SocketTool socketTool;
 	public static String filePath;
 	private Dialog pDlg;
+	private Button btn_cancel;
 	List<TimeNode> listTimeNode;
 	private Context context;
 	private PopupWindow sharpPopupWindow, sharpPopupWindow2;

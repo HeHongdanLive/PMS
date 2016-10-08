@@ -10,11 +10,17 @@ import java.util.List;
  *
  */
 public class Config {
+
+	/** 20160927其他用户在上下载数据 */
+	public static boolean isOtherFile = false;
+	/** 20161008上传菜谱的总大小 */
+	public static int fileSize = 0;
+	/** 20161009是否取消文件传输 */
+	public static boolean isTransmit = false;
+
 	public static int flag=0;
 	public static int position = 0; // 本地文件位置
 	public static boolean isConnext = false; // 设备连接状态
-
-	public static boolean isOtherFile = false;//20160927其他用户在上下载数据
 	
 	public static String Id = null;//推送的自定消息ID
 	public static String Name = null;//菜谱名称
@@ -84,19 +90,13 @@ public class Config {
 	 */
 	public static byte[] bufFileAck = { (byte) 0xF4, 0x01 };// ok
 
-	/**
-	 *  F5 00 发送/确认帧 下发录波文件大小 下发录波文件
-	 */
+	/** F5 00 发送/确认帧 下发录波文件大小 下发录波文件 */
 	public static byte[] bufDownFileInfo = { (byte) 0xF5, 0x00 };
 	
-	/**
-	 * F5 01 发送/确认帧 下发录波数据
-	 */
+	/** F5 01 发送/确认帧 下发录波数据 */
 	public static byte[] bufDownFileData = { (byte) 0xF5, 0x01 };
 	
-	/**
-	 *  02 发送/确认帧 数据发送结束
-	 */
+	/** 02 发送/确认帧 数据发送结束 */
 	public static byte[] bufDownFileStop = { (byte) 0xF5, 0x02 };
 
 	// F6 00 发送/确认帧 删除装置生成录波文件操作 删除文件

@@ -74,7 +74,7 @@ public class CookBookAdapter extends BaseAdapter {
 			public void onClick(View v) {
 
 				if (Config.isOtherFile){
-                    TipConfirmView.showConfirmDialog2(context, "其他用户正在操作文件，请几秒后再来~", new View.OnClickListener() {
+                    TipConfirmView.showConfirmDialog2(context, "其他用户正在操作，请几秒后再来~", new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
                             TipConfirmView.dismiss();
