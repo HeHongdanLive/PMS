@@ -9,7 +9,8 @@ package com.gzmelife.app;
 
 public final class Manifest {
     public static final class permission {
-        /**  Required 
+        /** tools:overrideLibrary="com.umeng.fb, android.support.v7.appcompat"20160928
+ Required 
          */
         public static final String JPUSH_MESSAGE="com.gzmelife.app.permission.JPUSH_MESSAGE";
     }

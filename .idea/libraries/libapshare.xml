@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="libapshare">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/social_sdk_library_project/libs/libapshare.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

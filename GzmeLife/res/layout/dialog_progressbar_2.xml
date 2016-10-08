@@ -28,6 +28,19 @@
             android:id="@+id/tv_title"
             style="@style/tv_white_normal"
             android:text="正在下载文件，请稍候" />
+
+        <Button
+            android:id="@+id/btn_cancel_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_titlecolor_bg"
+            android:padding="@dimen/spacing_small"
+            android:layout_marginTop="15dp"
+            android:text="取\t消"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            />
+        <!--android:padding="@dimen/spacing_small"-->
     </LinearLayout>
 
 </FrameLayout>

@@ -240,6 +240,19 @@ public class DeviceFragment extends Fragment {
 					boolean isChecked) {
 				if (isChecked) {
 					Log.i(TAG, "点击  Config.flag=1;");
+
+					//20161007判断其他用户行为
+					if (Config.isOtherFile){
+						TipConfirmView.showConfirmDialog2(context, "其他用户正在操作文件，请几秒后再来~", new View.OnClickListener() {
+							@Override
+							public void onClick(View v) {
+								TipConfirmView.dismiss();
+
+							}
+						});
+						return;
+					}
+
 					Config.flag=1;
 					rb_selfFile.setTextColor(Color.parseColor("#ff5b80"));
 					view_selfFile.setVisibility(View.VISIBLE);
@@ -324,6 +337,19 @@ public class DeviceFragment extends Fragment {
 			public void onCheckedChanged(CompoundButton buttonView,
 					boolean isChecked) {
 				if (isChecked) {
+
+					//20161007判断其他用户行为
+					if (Config.isOtherFile){
+						TipConfirmView.showConfirmDialog2(context, "其他用户正在操作文件，请几秒后再来~", new View.OnClickListener() {
+							@Override
+							public void onClick(View v) {
+								TipConfirmView.dismiss();
+
+							}
+						});
+						return;
+					}
+
 					Config.flag=2;
 					Log.i(TAG, "点击  Config.flag=2;");
 					rb_downFile.setTextColor(Color.parseColor("#ff5b80"));
@@ -847,7 +873,7 @@ private void getInfo(){
 				break;
 			case 0://20160914连接失败业务
 				if (pDlg != null && pDlg.isShowing()) {
-					KappUtils.showToast(context, "文件下载失败");
+//					KappUtils.showToast(context, "文件下载失败");//20161008
 				}
 				if (connectDeviceBean != null) {
 					if (outtime != null) {

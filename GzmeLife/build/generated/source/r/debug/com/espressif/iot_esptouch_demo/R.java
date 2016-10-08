@@ -19,14 +19,14 @@ public final class R {
 		public static final int ic_launcher1 = 0x7f02006d;
 	}
 	public static final class id {
-		public static final int action_settings = 0x7f0d0227;
-		public static final int btnConfirm = 0x7f0d015d;
-		public static final int edtApPassword = 0x7f0d015a;
-		public static final int spinnerTaskResultCount = 0x7f0d015c;
-		public static final int switchIsSsidHidden = 0x7f0d015b;
-		public static final int tvApPassword = 0x7f0d0159;
-		public static final int tvApSsid = 0x7f0d0157;
-		public static final int tvApSssidConnected = 0x7f0d0158;
+		public static final int action_settings = 0x7f0d0228;
+		public static final int btnConfirm = 0x7f0d015e;
+		public static final int edtApPassword = 0x7f0d015b;
+		public static final int spinnerTaskResultCount = 0x7f0d015d;
+		public static final int switchIsSsidHidden = 0x7f0d015c;
+		public static final int tvApPassword = 0x7f0d015a;
+		public static final int tvApSsid = 0x7f0d0158;
+		public static final int tvApSssidConnected = 0x7f0d0159;
 	}
 	public static final class layout {
 		public static final int esptouch_demo_activity = 0x7f030059;

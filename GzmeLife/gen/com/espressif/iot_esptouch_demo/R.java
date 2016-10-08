@@ -11,22 +11,22 @@ public final class R {
 		public static final int taskResultCount = 0x7f0d0000;
 	}
 	public static final class dimen {
-		public static final int activity_horizontal_margin = 0x7f08004b;
-		public static final int activity_vertical_margin = 0x7f08004c;
+		public static final int activity_horizontal_margin = 0x7f06004c;
+		public static final int activity_vertical_margin = 0x7f06004d;
 	}
 	public static final class drawable {
 		public static final int app_icon = 0x7f020043;
-		public static final int ic_launcher = 0x7f02006c;
+		public static final int ic_launcher1 = 0x7f02006d;
 	}
 	public static final class id {
-		public static final int action_settings = 0x7f0a0226;
-		public static final int btnConfirm = 0x7f0a015c;
-		public static final int edtApPassword = 0x7f0a0159;
-		public static final int spinnerTaskResultCount = 0x7f0a015b;
-		public static final int switchIsSsidHidden = 0x7f0a015a;
-		public static final int tvApPassword = 0x7f0a0158;
-		public static final int tvApSsid = 0x7f0a0156;
-		public static final int tvApSssidConnected = 0x7f0a0157;
+		public static final int action_settings = 0x7f070228;
+		public static final int btnConfirm = 0x7f07015e;
+		public static final int edtApPassword = 0x7f07015b;
+		public static final int spinnerTaskResultCount = 0x7f07015d;
+		public static final int switchIsSsidHidden = 0x7f07015c;
+		public static final int tvApPassword = 0x7f07015a;
+		public static final int tvApSsid = 0x7f070158;
+		public static final int tvApSssidConnected = 0x7f070159;
 	}
 	public static final class layout {
 		public static final int esptouch_demo_activity = 0x7f030059;

@@ -38,59 +38,45 @@ import com.gzmelife.app.views.TipConfirmView;
  * Socket通信类
  */
 public class SocketTool {
-	
+
 	SocketToolFile socketToolFile = new SocketToolFile();//20160930独立获取文件提供给Socket
-	
+
     private String TAG = "SocketTool";
     private Socket socket;
-    
-    /**
-     * 20160920通过Socket输出
-     */
+
+    /** 20160920通过Socket输出 */
     private OutputStream output;
-    
-    /**
-     * 20160920通过Socket输入
-     */
+
+    /** 20160920通过Socket输入 */
     private InputStream input;
 
     private Context context;
     private Activity activity;
 
 //    private boolean isOtherFile = false;//20160927其他用户在上下载数据
-    
-    private boolean isSendCMD = false; // 当前正在发送命令
-    /**
-     * 若指令发送不成功，3S后重发指令
-     */
+
+    /** 当前正在发送命令 */
+    private boolean isSendCMD = false; //
+
+    /** 若指令发送不成功，3S后重发指令 */
     private int timeCnt = 0;//20160920当前的时间
-    
-  /**
-   * 20160920心跳时间
-   */
+
+  /** 20160920心跳时间 */
     private int timeCntHeart = 0;
-    
-  /**
-   * 记录所发的指令，用于后续若指令失败时重发
-   */
+
+  /** 记录所发的指令，用于后续若指令失败时重发 */
     private byte[] bufLastTemp;
 
-    /**
-     * 记录重发次数，若超过3次则进行重连的操作
-     */
+    /** 记录重发次数，若超过3次则进行重连的操作 */
     private int MaxReCnt = 0;
-    
-    /**
-     * 是否超时
-     */
+
+    /** 是否超时 */
     private boolean RecTimeOut = false;
 
     private int num = 0;//20160920帧的下标【对比地址码（0：为匹配）】
     private byte[] bufTemp = new byte[256 * 256];//20160920（bufTemp[0]为0xA5）65536=初始化每一帧数据（临时字节数组）
 
-    /**
-     * 指令发送是否成功，也作为是否处于空闲状态的判断，进行指令重发或心跳
-     */
+    /** 指令发送是否成功，也作为是否处于空闲状态的判断，进行指令重发或心跳 */
     private boolean ConFalg = false;//20160920是否有指令
 
     public static HeartTimeCount heartTimer;//20160920启动倒计时
@@ -98,68 +84,44 @@ public class SocketTool {
     private OnReceiver receiver;//20160920接收者（接口）
 
     private int fileNum = 0;//20160921文件列表总数
-    
-    /**
-     * 20160921当前请求帧
-     */
+
+    /** 20160921当前请求帧 */
 //    private int frmIndex = 0;//20160930
-    public int frmIndex = 0;//
-    
-    /**
-     * 20160928分页显示时一页的数量
-     */
+    private int frmIndex = 0;//
+
+    /** 20160928分页显示时一页的数量 */
     private int maxIndex = 0;//
 
-    /**
-     * 下发文件的总长度（int）
-     */
-//    private int numDownZie = 0;//201600930
-    public int numDownZie = 0;
-    private int test =0;
-    
-    /**
-     * 已经下发了的长度（int）
-     */
-//    private int numDownNow = 0;
-    public int numDownNow = 0;
+    /** 下发文件的总长度（int） */
+    private int numDownZie = 0;
+
+    /** 已经下发了的长度（int） */
+    private int numDownNow = 0;
     // private int numUpZie = 0; // 上传到手机来的文件的大小
-    /**
-     * 手机已经接收（int）
-     */
+    /** 手机已经接收（int） */
     private int numUpNow = 0;
 
-    /**
-     * 20160921接收（整个菜谱）的缓存数组（需指定大小）
-     */
+    /** 20160921接收（整个菜谱）的缓存数组（需指定大小） */
     private byte[] bufRecFile;
-    
-    /**
-     * 20160921准备上传的文件的缓存数组（10M）
-     */
+
+    /** 20160921准备上传的文件的缓存数组（10M） */
     private byte[] bufSendFile = new byte[10 * 1024 * 1024];//
 
     // private int MaxPacket = 2 * 1024; // 一次最大下发大小
-    
-    /**
-     * 每次最大下发大小（2K）
-     */
-    private int MaxPacket = 512; 
+
+    /** 每次最大下发大小（2K） */
+    private int MaxPacket = 512;
     private List<String> downFileList = new ArrayList<String>(); // 菜谱文件列表
     private List<String> selfFileList = new ArrayList<String>(); // 录波文件列表
 
-    /**
-     * 20160926当前获取第几帧的值（byte数组）
-     */
+    /** 20160926当前获取第几帧的值（byte数组） */
     private byte[] bufACK = {0x00, 0x00};// ok
-    /**
-     * 当三次重发失败后，三次重建tcp连接并发送指令。若为true，表示连接成功，不用再继续重建与连接，若三次后还为false，则给出失败提示
-     */
+
+    /** 当三次重发失败后，三次重建tcp连接并发送指令。若为true，表示连接成功，不用再继续重建与连接，若三次后还为false，则给出失败提示 */
     private boolean isConnected = false;//20160920是否已经连接
     private int[] a = new int[0];
 
-    /**
-     * 将当前获取第几帧的值转化为byte数组来传
-     */
+    /** 将当前获取第几帧的值转化为byte数组来传 */
     private void ACK(int index) {
         bufACK[0] = (byte) (index % 256);
         bufACK[1] = (byte) (index / 256);
@@ -183,9 +145,7 @@ public class SocketTool {
 
     private boolean startHeart = false;//20160920标记是否有心跳
 
-    /**
-     * 启动心跳计时
-     */
+    /** 启动心跳计时 */
     public void startHeartTimer() {
         //Log.i(TAG, "startHeartTimer");
         heartTimer = new HeartTimeCount(Long.MAX_VALUE, 1000);
@@ -194,9 +154,7 @@ public class SocketTool {
         ConFalg = true;//20160920有指令（心跳）
     }
 
-    /**
-     * 关闭连接
-     */
+    /** 关闭连接 */
     public void closeSocket() {
         //Log.i(TAG, "closeSocket");
         try {
@@ -217,9 +175,7 @@ public class SocketTool {
         }
     }
 
-    /**
-     * 每次的首次连接pms时，调用此方法，给三次连接机会，调用连接方法
-     */
+    /** 每次的首次连接pms时，调用此方法，给三次连接机会，调用连接方法 */
     public void firstConnect() {//20160920
         isConnected = false;
         connectTimes = 3;
@@ -227,9 +183,7 @@ public class SocketTool {
         //Log.i(TAG, "firstConnect  connectHandler.sendEmptyMessage(0)");
     }
 
-    /**
-     * 根绝ip与端口初始化socket连接
-     */
+    /** 根绝ip与端口初始化socket连接 */
     public void initClientSocket() {//20160920
         //Log.i(TAG, "根绝ip与端口初始化socket连接--》》initClientSocket");
         try {
@@ -244,11 +198,9 @@ public class SocketTool {
 
 
     //20160921收发独立**************************************************************
-    
-    
-    /**
-     * 20160921socket接收数据
-     */
+
+
+    /** 20160921socket接收数据线程 */
     private class ReceiveRunnable implements Runnable {
 		@Override
 		public void run() {
@@ -266,7 +218,7 @@ public class SocketTool {
                         for (int i = 0; i < len; i++) {
                             result[i] = resultTemp[i];//20160920复制一份接收到的数据
                         }
-                        
+
                         Message msg = new Message();
                         msg.obj = result;//20160920把接收到的结果放到消息中
                         handler.sendMessage(msg);//20160920拿到数据后先判断校验码等信息，若检验正确再去处理否则给出提示
@@ -298,7 +250,7 @@ public class SocketTool {
             }
 		}
 	}
-
+    /** 20160921socket接收数据 */
     public void receiveMessage() {
     	ReceiveRunnable receiveRunnable = new ReceiveRunnable();
         Thread receiveThread = new Thread(receiveRunnable);
@@ -336,8 +288,7 @@ public class SocketTool {
         System.out.println(" ");
 
 
-    	receiveMessage();//20160921调用接收方法
-    	
+
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -355,8 +306,6 @@ public class SocketTool {
                 try {
                     if (msg != null) {
                         output.write(msg);//20160929通过Socket写（上传）出去
-
-                        
                         output.flush();
                     } else {
                         return;
@@ -366,6 +315,9 @@ public class SocketTool {
                     e.printStackTrace();
                     return;
                 }
+
+                receiveMessage();//20160921调用接收方法
+
             }
         }).start();
         return msg;
@@ -376,23 +328,19 @@ public class SocketTool {
     public interface OnReceiver {
         /**
          * flag 0: 不处理，1：下载成功，2：下载失败,3:下载数据的百分比,4:连接成功,5:删除文件成功，6：获取设备状态成功, 7 :传文件到智能锅成功，8：传文件到智能锅的百分比 ,9:对时功能
-         * 
-         * @param cookBookFileList 
+         *
+         * @param cookBookFileList
          * @param flag 标记
          * @param now 已经传送了的大小
          * @param all 文件总大小
          */
         void onSuccess(List<String> cookBookFileList, int flag, int now, int all);
 
-        /**
-         * flag 默认为0;-1：下载文件，文件大小=0;
-         */
+        /** flag 默认为0;-1：下载文件，文件大小=0; */
         void onFailure(int flag);
     }
 
-    /**
-     * 单指令，只要发送指令，不需要传参数，如连接、心跳等
-     */
+    /** 单指令，只要发送指令，不需要传参数，如连接、心跳等 */
     public void PMS_Send(byte[] bufTemp1) {
         int addNum = 0;
         byte[] bufTemp = new byte[bufTemp1.length + 5];
@@ -432,25 +380,19 @@ public class SocketTool {
     }
 
     /**
-     * 发送指令与参数
-     * 
-     * //20160926
+     * 发送指令与参数//20160926
      * @param bufTemp1 功能码+子功能码
      * @param bufTemp2 当前请求帧（序号/序号+数据）
      */
     public void PMS_Send(byte[] bufTemp1, byte[] bufTemp2) {
-    	
-    	/**
-    	 * 20160929//addNum：算数和（绝对值的和）
-    	 */
+
+    	/** 20160929//addNum：算数和（绝对值的和） */
         int addNum = 0;
         int i = 0;
-        
+
         int len = bufTemp1.length + bufTemp2.length + 1;// PMS格式长度+数据长度+校验码//20160929（功能码+子功能码）+（当前请求帧（序号/序号+数据））+（算数和（绝对值的和））
 
-      /**
-       * 20160920bufTemp：组装帧格式
-       */
+      /** 20160920bufTemp：组装帧格式 */
         byte[] bufTemp = new byte[len + 4];
         bufTemp[0] = (byte) 0xA5;
         bufTemp[1] = (byte) (len % 256);//20160920与256长度L低字节
@@ -475,7 +417,7 @@ public class SocketTool {
         for (i = 1; i < len + 3; i++) {
             addNum += bufTemp[i];
         }
-        
+
         bufTemp[len + 3] = (byte) (addNum % 256);//20160929组装校验码
       //20160929帧格式=地址码（A5H）+长度L低字节+长度L高字节+功能码+子功能码+客户端地址+【帧序号+菜谱数据】+SUM校验码
 
@@ -496,9 +438,7 @@ public class SocketTool {
         }
     }
 
-    /**
-     * 拿到数据后先判断校验码等信息，若检验正确再去处理否则给出提示
-     */
+    /** 拿到数据后先判断校验码等信息，若检验正确再去处理否则给出提示 */
     Handler handler = new Handler(new Callback() {//20160920解析接收
         @Override
         public boolean handleMessage(Message msg) {//20160920msg：功能码
@@ -546,8 +486,8 @@ public class SocketTool {
                                 /*
                             	 * 把接收到的原始数据加载到初始化的缓冲数组中
                             	 */
-                                
-                                
+
+
 
                                 int check = 0;
                                 for (int i = 1; i < num - 1; i++) {
@@ -560,9 +500,7 @@ public class SocketTool {
 //                                Log.i(TAG, "check长度="+check);
                                 if (DataUtil.hexToTen(bufTemp[num - 1]) == (check % 256)) {//20160923待请教问题是否为“SUM校验码”//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-                                    /**
-                                     * 20160923解析数据入口
-                                     */
+                                    /** 20160923解析数据入口 */
                                     Done(bufTemp, num);//20160923接收到的数据（临时数组=256 * 256=65536）：bufTemp//原始数据长度：num
 //                                    Log.i(TAG, "Done接到每一帧数据的长度【" + bufTemp.length+ "】" );
 //                                    Log.i(TAG, "功能码【" + byte2HexString(bufTemp[3]) + "】子功能码【" + byte2HexString(bufTemp[4]) + "】客户端地址【" + byte2HexString(bufTemp[5]) + "】");//20160920
@@ -631,7 +569,7 @@ public class SocketTool {
             Log.i(TAG, "-HHD-》》客户端地址不匹配，处理报文且读取其他用户指令");
 //			KappUtils.showToast(context, "其他客户端正在操作");
             switch (buf[3]) {
-            
+
 //            case (byte) 0xF0:
 //                break;
 //                
@@ -700,35 +638,38 @@ public class SocketTool {
 //              	   Config.isOtherFile = false;
 //                 }
 //            	break;
-            	
-            	
-            	
-            	
+
+
+
+
 
                 case (byte) 0xF3:
                     if (buf[4] == 0x00) {
-                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】获取录波文件数量");
+//                        Config.isOtherFile = true;//20160927
+//                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】获取录波文件数量");
                         break;
                     } else if (buf[4] == 0x01) {
-                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】查询录波文件列表");
+                        Config.isOtherFile = true;//20160927
+//                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】查询录波文件列表");
                         break;
                     } else if (buf[4] == 0x02) {
-                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】遍历完毕");
+                        Config.isOtherFile = false;//20160927
+//                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】遍历完毕");
                         break;
                     }
                     break;
 
                 case (byte) 0xF4:
                     if (buf[4] == 0x00) {
-                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】获取录波文件大小");
+//                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】获取录波文件大小");
                         break;
                     } else if (buf[4] == 0x01) {
-                    	
+
                     	Config.isOtherFile = true;//20160927
 
                         break;
                     } else if (buf[4] == 0x02) {
-                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】录波发送结束");
+//                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】录波发送结束");
                         Config.isOtherFile = false;//20160927
                         break;
                     } else if (buf[4] == 0x03) {
@@ -740,7 +681,7 @@ public class SocketTool {
 
                 case (byte) 0xF5:
                     if (buf[4] == 0x00) {
-                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】获取录波文件大小");
+//                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】获取录波文件大小");
                         break;
                     } else if (buf[4] == 0x01) {
 
@@ -748,7 +689,7 @@ public class SocketTool {
                         break;
 
                     } else if (buf[4] == 0x02) {
-                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】数据发送结束");
+//                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】数据发送结束");
                         Config.isOtherFile = false;//20160927
                         break;
                     }
@@ -946,17 +887,17 @@ public class SocketTool {
                     }
                 }
                 break;
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+
+
+
+
+
+
+
+
+
+
+
             case (byte) 0xF6:
                 if (buf[4] == (byte) 0x00) {
                     if (buf[6] == 0x01) {
@@ -1038,9 +979,7 @@ public class SocketTool {
                 }
                 break;
             case (byte) 0xF8:
-                /**
-                 * 链接成功
-                 */
+                /** 链接成功 */
                 if (buf[4] == (byte) 0x00) { // 连接确认报文，回复PMS的MAC
                     isConnected = true;
                     if (receiver != null) {
@@ -1068,9 +1007,7 @@ public class SocketTool {
             return "";
         String bString = "", tmp;
         for (int i = 0; i < hexString.length(); i++) {
-            tmp = "0000"
-                    + Integer.toBinaryString(Integer.parseInt(hexString
-                    .substring(i, i + 1), 16));
+            tmp = "0000" + Integer.toBinaryString(Integer.parseInt(hexString.substring(i, i + 1), 16));
             bString += tmp.substring(tmp.length() - 4);
         }
         return bString;
@@ -1078,24 +1015,17 @@ public class SocketTool {
 
     /**
      * 20160929向PMS发送文件//从pms下载文件到手机时，根据当前第几次下载，计算出指令来发送
-     * 
      * index：当前请求帧下标
      */
     private void DownFile(int index) {
         //Log.i(TAG, "DownFile(int index)" + String.valueOf(index));
-        /**
-         * 20160929lenth：剩下的长度（int）
-         * 
-         * 所需下载长度为剩下的长度 但不大于最大请求长度
-         */
+        /** 20160929lenth：剩下的长度（int）//所需下载长度为剩下的长度 但不大于最大请求长度 */
         int lenth = numDownZie - numDownNow;//20160929总长-已发送=lenth（剩下没发送）
         if (lenth > MaxPacket) {
             lenth = MaxPacket;
         }//20160929否则（剩下的长度<每次最大下发大小（512））
 
-        /**
-         * 20160929//bufR：组装当前请求帧=帧序号（2）+菜谱数据（1024*2）
-         */
+        /** 20160929//bufR：组装当前请求帧=帧序号（2）+菜谱数据（1024*2） */
         byte[] bufR = new byte[lenth + 2];//20160929//2048+2
         bufR[0] = (byte) (index % 256);//相当于十进制除10取余
         bufR[1] = (byte) (index / 256);//相当于十进制除10
@@ -1110,19 +1040,17 @@ public class SocketTool {
         
         /*numDownNow = numDownNow + lenth;*/
         numDownNow = numDownNow + lenth;
-        
-    }
-    
-    
-    
-    
-    
-    
-    
 
-    /**
-     * 重发机制和心跳
-     */
+    }
+
+
+
+
+
+
+
+
+    /** 重发机制和心跳 */
     class HeartTimeCount extends CountDownTimer {//20160913CountDownTimer：倒计时器
 
         public HeartTimeCount(long millisInFuture, long countDownInterval) {
@@ -1182,14 +1110,10 @@ public class SocketTool {
         }
     }
 
-    /**
-     * 三次重建tcp连接与指令的机会
-     */
+    /** 三次重建tcp连接与指令的机会 */
     int connectTimes = 3;
 
-    /**
-     * 关于连接模块做的处理
-     */
+    /** 关于连接模块做的处理 */
     Handler connectHandler = new Handler(new Callback() {//20160920实现Handler.Callback接口接收消息
         @Override
         public boolean handleMessage(Message msg) {
@@ -1238,28 +1162,28 @@ public class SocketTool {
     private void upFile(byte[] buf/* , int num */) {//20160928buf：不能超过1032
 //        int fileLen = DataUtil.hexToTen(buf[1]) + DataUtil.hexToTen(buf[2]) * 256 - 5;//200160928//fileLen：长度L：功能码、子功能码以及数据域的长度之和
     	//5=功能码+子功能码+客户端地址+帧序号低字节+帧序号高字节=长度L-有效数据
-    	
+
         int fileLen = DataUtil.hexToTen(buf[1]) + DataUtil.hexToTen(buf[2]) * 256 - 9;//200160928//fileLen：长度L：功能码、子功能码以及数据域的长度之和
       //9=功能码+子功能码+客户端地址+(录波文件的长度0~7位+录波文件的长度8~15位+录波文件的长度16~23位+录波文件的长度24~31位)+帧序号低字节+帧序号高字节=长度L-有效数据
-        
+
         int allFileLen = DataUtil.hexToTen(buf[6]) + DataUtil.hexToTen(buf[7]) * 256 + DataUtil.hexToTen(buf[8]) * 256 * 256 + DataUtil.hexToTen(buf[9]) * 256 * 256 * 256;
         for (int i = 0; i < 1037; i++) {
-       
+
         	Log.i(TAG, byte2HexString(buf[i]));
 		}
-        
-        
+
+
         Log.i(TAG, "收到第" + (DataUtil.hexToTen(buf[10]) + DataUtil.hexToTen(buf[11]) * 256) + "帧,长度=" + fileLen + ",当前接收总长度：" + (numUpNow + fileLen)+ ",HHD-->总长度：" + allFileLen);
         for (int i = 0; i < fileLen; i++) {
 //            bufRecFile[numUpNow + i] = buf[i + 8];//20160928//bufRecFile：当前菜谱文件总长度
             bufRecFile[numUpNow + i] = buf[i + 12];//20160928//bufRecFile：当前菜谱文件总长度
         }
 //        Log.i(TAG, "每一帧数据的长度修改后===================================【" + bufRecFile.length+ "】" );
-        
+
         for (int j= 0;j < bufRecFile.length; j++) {
 //        	Log.i(TAG, "下载的数组【" + byte2HexString(bufRecFile[j])+ "】" );
 		}
-        
+
         numUpNow += fileLen;// 40380 40124//20160928//fileLen：进度总长度（int）
         if (receiver != null) { // 界面上实时显示当前下载进度
             receiver.onSuccess(null, 3, numUpNow, bufRecFile.length);
@@ -1342,12 +1266,12 @@ public class SocketTool {
      */
     public void doSendFile() {
         //Log.i(TAG, "doSendFile()");
-    	
+
     	/**
     	 * 20160929菜谱文件名
     	 */
         String fileName;
-        
+
         /**
          * 20160929保存在手机的菜谱文件
          */
@@ -1384,7 +1308,7 @@ public class SocketTool {
          */
         byte[] bufFile = FileUtils.getBytesFromFile(file);
 //        Log.i(TAG, "bufFile源文件大小"+bufFile.length+"<---------------->");
-        
+
         /**
          * 20160929//check=bufFile的每个byte转int的和
          */
@@ -1404,7 +1328,7 @@ public class SocketTool {
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-        
+
         /**
          * 20160929//bufFileInfo=文件的长度+文件名长度=帧格式-（地址码[0]+长度L低字节+长度L高字节+功能码+子功能码+客户端地址[5]<->+SUM校验码）
          */
@@ -1415,7 +1339,7 @@ public class SocketTool {
         bufFileInfo[1] = (byte) ((bufFile.length / 256) % 256);
         bufFileInfo[2] = (byte) ((bufFile.length / 256 / 256) % 256);
         bufFileInfo[3] = (byte) ((bufFile.length / 256 / 256 / 256) % 256);
-        
+
         //20160929
         bufFileInfo[4] = (byte) (check % 256);
         bufFileInfo[5] = (byte) ((check / 256) % 256);
@@ -1423,10 +1347,9 @@ public class SocketTool {
         bufFileInfo[7] = (byte) ((check / 256 / 256 / 256) % 256);
 
         numDownNow = 0;
-        numDownZie = (int) bufFile.length;     
-        test = 123;
+        numDownZie = (int) bufFile.length;
 //        Log.i(TAG, "doSendFile()：numDownZie：下发文件大-->     " + numDownZie);
-        
+
         for (int i = 0; i < arr.length; i++) {
             bufFileInfo[i + 8] = arr[i];
         }
@@ -1434,19 +1357,19 @@ public class SocketTool {
         ConFalg = false;
         PMS_Send(Config.bufDownFileInfo, bufFileInfo);
       //20160929//bufFileInfo=文件的长度+文件名长度=帧格式-（长度L低字节+长度L高字节+功能码+子功能码+客户端地址（5））
-        
-      
+
+
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
 
     /**
      * 方式三

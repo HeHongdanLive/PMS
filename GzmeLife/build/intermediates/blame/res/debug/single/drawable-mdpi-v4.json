@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\app_icon.png",
@@ -52,12 +52,12 @@
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_xout.png",
@@ -68,28 +68,32 @@
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_topnub.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\default_ptr_rotate.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\Android-PullToRefresh\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\messenger_bubble_large_white.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable-mdpi-v4\\messenger_bubble_large_white.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_button_send_icon.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable-mdpi-v4\\com_facebook_button_send_icon.png"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_button_like_icon_selected.png",
@@ -144,12 +148,20 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_square.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\social_sdk_library_project\\unspecified\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
@@ -164,12 +176,12 @@
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
-    },
-    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\messenger_bubble_large_blue.png",
@@ -232,12 +244,12 @@
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
@@ -276,6 +288,10 @@
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
@@ -310,6 +326,10 @@
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
@@ -372,6 +392,10 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\social_sdk_library_project\\unspecified\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png"
     },
@@ -394,6 +418,10 @@
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
@@ -434,6 +462,10 @@
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\messenger_bubble_small_white.png",
@@ -572,6 +604,10 @@
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
@@ -616,6 +652,10 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_mtrl_alpha.png",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_ic_clear_mtrl_alpha.png"
     },
@@ -658,6 +698,10 @@
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_topnub.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\messenger_bubble_small_blue.png",
@@ -766,6 +810,10 @@
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",

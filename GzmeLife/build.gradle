@@ -12,7 +12,7 @@ dependencies {
     compile project(':gridlayout')
     compile project(':library')
 //    compile project(':android-support-v7-appcompat')
-//    compile 'com.android.support:appcompat-v7:24.2.0'
+//    compile 'com.android.support:appcompat-v7:24.2.1'
     compile project(':xutils')
     compile project(':recyclerview')
 }

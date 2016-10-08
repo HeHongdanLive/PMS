@@ -774,6 +774,27 @@ public class NetCookBooksDetailActivity extends BaseActivity implements
 						FrameLayout.LayoutParams.MATCH_PARENT,
 						FrameLayout.LayoutParams.MATCH_PARENT, 0, 0, false);
 				ShowDialogUtil.setTitle("正在传送菜谱，请稍候");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				break;
 			case 1:
 				KappUtils.showToast(context, "上传文件到智能锅失败");

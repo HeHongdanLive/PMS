@@ -404,6 +404,30 @@ public class CookBookDetailActivity extends BaseActivity implements OnClickListe
 				pDlg = ShowDialogUtil.getShowDialog(CookBookDetailActivity.this, R.layout.dialog_progressbar_2,
 						FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT, 0, 0, false);
 				ShowDialogUtil.setTitle("正在传送菜谱，请稍候");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				break;
 			case 1:
 				closePDlg();

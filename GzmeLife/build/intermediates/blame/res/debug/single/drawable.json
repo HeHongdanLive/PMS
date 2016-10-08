@@ -8,12 +8,12 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\res\\drawable\\wheel_bg.xml"
     },
     {
-        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_instagram_off.png",
-        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_instagram_off.png"
-    },
-    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_instagram_off.png",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_instagram_off.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
@@ -24,44 +24,44 @@
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\drawable\\tb_munion_icon.xml"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_bg.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\drawable\\corners_bg.xml"
-    },
-    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_bottom_corner_no_top_line.xml",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\res\\drawable\\shape_bottom_corner_no_top_line.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\corners_bg.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\drawable\\corners_bg.xml"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle_gray.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_wxcircle_gray.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pocket.png",
-        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_pocket.png"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_blue.9.png",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_blue.9.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_titlecolor_voal.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\drawable\\shape_titlecolor_voal.xml"
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pocket.png",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_pocket.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_alipay.png",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_alipay.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_titlecolor_bg.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\drawable\\shape_titlecolor_bg.xml"
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_titlecolor_voal.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\drawable\\shape_titlecolor_voal.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_ic.png",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_location_ic.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_titlecolor_bg.xml",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\drawable\\shape_titlecolor_bg.xml"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_ic.png",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_location_ic.png"
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_titlecolor_bg.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\drawable\\shape_titlecolor_bg.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
@@ -74,6 +74,10 @@
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_ynote.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_ynote.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_selected.png",
@@ -92,12 +96,12 @@
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_foursquare_gray.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_on.png",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_renren_on.png"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_cancel_bg_tap.xml",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\drawable\\umeng_update_button_cancel_bg_tap.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_on.png",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_renren_on.png"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_evernote_gray.png",
@@ -176,12 +180,12 @@
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_pocket_gray.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_google.png",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_google.png"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_rb.xml",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\drawable\\selector_rb.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_google.png",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_google.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle_gray.png",
@@ -596,12 +600,20 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_douban_off.png"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin_circle.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_yixin_circle.png"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_corner.xml",
@@ -752,6 +764,10 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\res\\drawable\\seletcor_top_goodfood.xml"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_off.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_sina_off.png"
     },
@@ -770,6 +786,10 @@
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_transparent_corner.xml",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_share_transparent_corner.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_check_selector.xml",
@@ -802,6 +822,10 @@
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red.9.png",
@@ -1108,6 +1132,10 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar_states.xml",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\drawable\\progress_bar_states.xml"
     },
@@ -1298,6 +1326,10 @@
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selected.xml",
@@ -1768,6 +1800,10 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\social_sdk_library_project\\unspecified\\res\\drawable\\messenger_button_blue_bg_selector.xml"
     },
@@ -1944,6 +1980,10 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_kakao_gray.png",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_kakao_gray.png"
     },
@@ -1998,6 +2038,10 @@
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sms_on.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_sms_on.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_focused.xml",
@@ -2104,6 +2148,10 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
     },
     {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_flickr_gray.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\drawable\\umeng_socialize_flickr_gray.png"
     },
@@ -2142,6 +2190,10 @@
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_title_bg.xml",
