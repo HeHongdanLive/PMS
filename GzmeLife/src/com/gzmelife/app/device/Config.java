@@ -13,8 +13,8 @@ public class Config {
 
 	/** 20160927其他用户在上下载数据 */
 	public static boolean isOtherFile = false;
-	/** 20161008上传菜谱的总大小 */
-	public static int fileSize = 0;
+	/** 20161008是否为上传菜谱（F5）指令：true=是上传菜谱 */
+	public static boolean isF5 = false;
 	/** 20161009取消文件传输：true=取消*/
 	public static boolean cancelTransmit = false;
 
@@ -73,10 +73,12 @@ public class Config {
 	public static byte[] bufInversion = { (byte) 0xF1, 0x04 };
 	// F2 00 发送/响应帧 对时功能
 	public static byte[] bufSetTime = { (byte) 0xF2, 0x00 };
-	// F3 00 发送/响应帧 获取录波文件数量 遍历文件
+
+	/** F3 00 发送/响应帧 获取录波文件数量 遍历文件 */
 	public static byte[] bufGetFileNum = { (byte) 0xF3, 0x00 };
-	// 01 发送/响应帧 查询录波文件列表
+	/** F3 01 发送/响应帧 查询录波文件列表 */
 	public static byte[] bufListFile = { (byte) 0xF3, 0x01 };
+	/** F3 01 发送/响应帧 查询录波文件列表结束 */
 	public static byte[] bufListFileOver = { (byte) 0xF3, 0x02 };
 
 	/** F4 00 发送/响应帧 获取录波文件大小 上召录波文件*/

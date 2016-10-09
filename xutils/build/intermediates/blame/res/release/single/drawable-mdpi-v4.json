@@ -24,12 +24,12 @@
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\xutils\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
@@ -122,6 +122,10 @@
     {
         "merged": "D:\\Work\\Git\\PMS\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
         "source": "D:\\Work\\Git\\PMS\\xutils\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\drawable-mdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Work\\Git\\PMS\\xutils\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png",

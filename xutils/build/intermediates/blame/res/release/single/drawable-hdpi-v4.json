@@ -32,12 +32,12 @@
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\xutils\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
@@ -346,6 +346,10 @@
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\xutils\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\android-support-v7-appcompat\\unspecified\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\Work\\Git\\PMS\\xutils\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\xutils\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",

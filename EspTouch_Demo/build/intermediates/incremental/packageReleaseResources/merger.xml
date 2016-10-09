@@ -18,4 +18,4 @@
         <!-- API 11 theme customizations can go here. -->
     </style></file><file path="D:\Work\Git\PMS\EspTouch_Demo\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- API 14 theme customizations can go here. -->
-    </style></file></source><source path="D:\Work\Git\PMS\EspTouch_Demo\build\generated\res\rs\release"/><source path="D:\Work\Git\PMS\EspTouch_Demo\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="D:\Work\Git\PMS\EspTouch_Demo\build-types\release\res"/></dataSet><mergedItems/></merger>
+    </style></file><file name="ic_launcher" path="D:\Work\Git\PMS\EspTouch_Demo\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/></source><source path="D:\Work\Git\PMS\EspTouch_Demo\build\generated\res\rs\release"/><source path="D:\Work\Git\PMS\EspTouch_Demo\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="D:\Work\Git\PMS\EspTouch_Demo\build-types\release\res"/></dataSet><mergedItems/></merger>
