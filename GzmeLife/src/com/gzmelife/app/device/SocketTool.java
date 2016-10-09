@@ -28,6 +28,9 @@ import com.gzmelife.app.tools.FileUtils;
 import com.gzmelife.app.tools.KappUtils;
 import com.gzmelife.app.tools.MyLog;
 
+import static com.gzmelife.app.device.Config.bufDownFileCancel;
+import static com.gzmelife.app.device.Config.bufFileCancel;
+
 /** Socket通信类 */
 public class SocketTool {
     private String TAG = "SocketTool";
@@ -660,6 +663,10 @@ public class SocketTool {
                 break;
             case (byte) 0xF4: // 上召文件
                 if (buf[4] == 0x01) { // 得到文件数据
+                    if (Config.cancelTransmit){/** 21061009取消传输 */
+                        PMS_Send(bufFileCancel);
+                        return;
+                    }
                     upFile(buf/* , num */);
                 } else if (buf[4] == 0x00) { // 得到文件长度
                     int fileLen = DataUtil.hexToTen(buf[6]) + DataUtil.hexToTen(buf[7]) * 256 + DataUtil.hexToTen(buf[8]) * 256 * 256 + DataUtil.hexToTen(buf[9]) * 256 * 256 * 256;
@@ -670,37 +677,33 @@ public class SocketTool {
                         return;
                     }
                     numUpNow = 0;
-
                     bufRecFile = new byte[fileLen];
-
                     frmIndex = 1;
                     maxIndex = fileLen / MaxPacket;
                     if ((fileLen % MaxPacket) > 0) {
                         maxIndex++;
                     }
-
                     ACK(frmIndex);
                     PMS_Send(Config.bufFileAck, bufACK);
                 } else if (buf[4] == 0x02) {
-
                     DeviceFragment.saveFileName = FileUtils.PMS_FILE_PATH + FileUtils.getFileName(DeviceFragment.saveFileName);
                     FileUtils.writeTextToFile(DeviceFragment.saveFileName, bufRecFile);
                     // updateLocalFile();
-
                     if (receiver != null) {
                         receiver.onSuccess(null, 1, 0, 0);
                     } else {
                         receiver.onFailure(0);
                     }
+                } else if (buf[4] == 0x03){/** 20161009收到中断确认 */
+                    Config.cancelTransmit = false;
+                    System.out.println("收到PMS返回取消下载文件报文");
                 }
                 break;
 
             case (byte) 0xF5: // 下传文件
                 if (buf[4] == 0x00) { // 发送文件大小和文件名，得到确认
                     if (buf[6] == 0x01) {
-
                         numDownNow = 0;
-
                         frmIndex = 1;
                         DownFile(frmIndex);
                     } else if (buf[6] == 0x00) {
@@ -711,9 +714,11 @@ public class SocketTool {
                     }
                 } else if (buf[4] == 0x01) { // 发送文件一帧，得到确认
                     if (buf[6] == 0x01) {
-
+                        if (Config.cancelTransmit){/** 21061009取消传输 */
+                            PMS_Send(bufDownFileCancel);
+                            return;
+                        }
                         frmIndex++;
-
                         if (receiver != null) {
                             receiver.onSuccess(null, 8, numDownNow, numDownZie);
                         } else {
@@ -733,6 +738,9 @@ public class SocketTool {
                     } else {
                         // receiver.onFailure(0);
                     }
+                } else if (buf[4] == 0x03){/** 20161009收到中断确认 */
+                    Config.cancelTransmit = false;
+                    System.out.println("收到PMS返回取消上传文件报文");
                 }
                 break;
 

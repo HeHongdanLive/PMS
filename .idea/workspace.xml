@@ -14,7 +14,9 @@
   </component>
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <target>android-21</target>
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
@@ -53,165 +55,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SocketTool.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SocketTool.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/device/SocketTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="244" column="17" selection-start-line="244" selection-start-column="17" selection-end-line="244" selection-end-column="51" />
+            <state relative-caret-position="142">
+              <caret line="736" column="58" selection-start-line="736" selection-start-column="58" selection-end-line="736" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2197#2205#0" expanded="true" />
-                <element signature="e#2272#2280#0" expanded="true" />
-                <element signature="e#3101#3102#0" expanded="true" />
-                <element signature="e#3134#3135#0" expanded="true" />
-                <element signature="e#4996#7112#0" expanded="true" />
-                <element signature="e#7111#7112#0" expanded="true" />
-                <element signature="e#12430#15922#0" expanded="true" />
-                <element signature="e#15921#15922#0" expanded="true" />
-                <element signature="e#35937#35938#0" expanded="true" />
-                <element signature="e#36000#36001#0" expanded="true" />
-                <element signature="e#39131#41160#0" expanded="true" />
-                <element signature="e#39789#40539#0" expanded="true" />
-                <element signature="e#40162#40428#0" expanded="true" />
-                <element signature="e#40427#40428#0" expanded="true" />
-                <element signature="e#40538#40539#0" expanded="true" />
-                <element signature="e#41159#41160#0" expanded="true" />
-                <marker date="1475952537671" expanded="false" signature="53871:53879" ph="&lt;~&gt;" />
-                <marker date="1475952537671" expanded="false" signature="53948:53956" ph="&lt;~&gt;" />
-                <marker date="1475952537671" expanded="false" signature="54810:54839" ph=" { " />
-                <marker date="1475952537671" expanded="false" signature="54857:54865" ph=" }" />
-                <marker date="1475952537671" expanded="false" signature="60784:60858" ph="(Runnable) () → {" />
-                <marker date="1475952537671" expanded="false" signature="61951:61968" ph="}" />
-                <marker date="1475952537671" expanded="false" signature="92537:92661" ph="(Callback) (msg) → {" />
-                <marker date="1475952537671" expanded="false" signature="92964:93070" ph="(Runnable) () → {" />
-                <marker date="1475952537671" expanded="false" signature="93410:93548" ph="() → {" />
-                <marker date="1475952537671" expanded="false" signature="93676:93717" ph="}" />
-                <marker date="1475952537671" expanded="false" signature="93801:93834" ph="}" />
-                <marker date="1475952537671" expanded="false" signature="94395:94408" ph="}" />
+                <element signature="e#2322#2330#0" expanded="true" />
+                <element signature="e#2397#2405#0" expanded="true" />
+                <element signature="e#5121#7237#0" expanded="true" />
+                <element signature="e#7236#7237#0" expanded="true" />
+                <element signature="e#12555#16047#0" expanded="true" />
+                <element signature="e#16046#16047#0" expanded="true" />
+                <element signature="e#39957#41986#0" expanded="true" />
+                <element signature="e#40615#41365#0" expanded="true" />
+                <element signature="e#41364#41365#0" expanded="true" />
+                <element signature="e#41985#41986#0" expanded="true" />
+                <marker date="1475980886199" expanded="false" signature="54697:54705" ph="&lt;~&gt;" />
+                <marker date="1475980886199" expanded="false" signature="54774:54782" ph="&lt;~&gt;" />
+                <marker date="1475980886199" expanded="false" signature="55636:55665" ph=" { " />
+                <marker date="1475980886199" expanded="false" signature="55683:55691" ph=" }" />
+                <marker date="1475980886199" expanded="false" signature="61610:61684" ph="(Runnable) () → {" />
+                <marker date="1475980886199" expanded="false" signature="62777:62794" ph="}" />
+                <marker date="1475980886199" expanded="false" signature="93363:93487" ph="(Callback) (msg) → {" />
+                <marker date="1475980886199" expanded="false" signature="93790:93896" ph="(Runnable) () → {" />
+                <marker date="1475980886199" expanded="false" signature="94236:94374" ph="() → {" />
+                <marker date="1475980886199" expanded="false" signature="94502:94543" ph="}" />
+                <marker date="1475980886199" expanded="false" signature="94627:94660" ph="}" />
+                <marker date="1475980886199" expanded="false" signature="95221:95234" ph="}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/device/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CookBookAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/adapter/CookBookAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dialog_progressbar_2.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/dialog_progressbar_2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetCookBookDetailActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBookDetailActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9443">
-              <caret line="600" column="15" selection-start-line="600" selection-start-column="15" selection-end-line="600" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#5138#5160#0" expanded="false" />
-                <element signature="e#5250#5277#0" expanded="false" />
-                <element signature="e#5373#5403#0" expanded="false" />
-                <element signature="e#8972#9143#0" expanded="false" />
-                <element signature="e#9142#9143#0" expanded="false" />
-                <element signature="e#10973#10974#0" expanded="false" />
-                <element signature="e#11013#11014#0" expanded="false" />
-                <element signature="e#11148#11296#0" expanded="false" />
-                <element signature="e#11295#11296#0" expanded="false" />
-                <element signature="e#19922#22493#0" expanded="false" />
-                <element signature="e#22492#22493#0" expanded="false" />
-                <element signature="e#23783#25349#0" expanded="false" />
-                <element signature="e#25348#25349#0" expanded="false" />
-                <element signature="e#34066#34309#0" expanded="false" />
-                <element signature="e#34308#34309#0" expanded="false" />
-                <element signature="e#34900#35158#0" expanded="false" />
-                <element signature="e#35157#35158#0" expanded="false" />
-                <element signature="e#35607#35850#0" expanded="false" />
-                <element signature="e#35849#35850#0" expanded="false" />
-                <element signature="e#36487#36682#0" expanded="false" />
-                <element signature="e#36681#36682#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CookBookDetailActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CookBookDetailActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/CookBookDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="389" column="12" selection-start-line="389" selection-start-column="12" selection-end-line="389" selection-end-column="12" />
+            <state relative-caret-position="217">
+              <caret line="408" column="16" selection-start-line="408" selection-start-column="16" selection-end-line="408" selection-end-column="61" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetCookBooksDetailActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBooksDetailActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12711">
-              <caret line="775" column="37" selection-start-line="775" selection-start-column="37" selection-end-line="775" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#5025#5047#0" expanded="false" />
-                <element signature="e#5137#5164#0" expanded="false" />
-                <element signature="e#5260#5290#0" expanded="false" />
-                <element signature="e#8861#9033#0" expanded="false" />
-                <element signature="e#9032#9033#0" expanded="false" />
-                <element signature="e#10863#10864#0" expanded="false" />
-                <element signature="e#10903#10904#0" expanded="false" />
-                <element signature="e#11038#11186#0" expanded="false" />
-                <element signature="e#11185#11186#0" expanded="false" />
-                <element signature="e#19762#20737#0" expanded="false" />
-                <element signature="e#20736#20737#0" expanded="false" />
-                <element signature="e#22029#22618#0" expanded="false" />
-                <element signature="e#22617#22618#0" expanded="false" />
-                <element signature="e#30391#30634#0" expanded="false" />
-                <element signature="e#30633#30634#0" expanded="false" />
-                <element signature="e#31225#31483#0" expanded="false" />
-                <element signature="e#31482#31483#0" expanded="false" />
-                <element signature="e#31932#32175#0" expanded="false" />
-                <element signature="e#32174#32175#0" expanded="false" />
-                <element signature="e#32812#33007#0" expanded="false" />
-                <element signature="e#33006#33007#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShowDialogUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/tools/ShowDialogUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1256#1569#0" expanded="false" />
-                <element signature="e#1568#1569#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -6613,7 +6496,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="D:\Work\Git\PMS" value="16227911897557" />
+        <entry key="D:\Work\Git\PMS" value="16228063676604" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -7583,23 +7466,23 @@
         <option value="$PROJECT_DIR$/GzmeLife/build.gradle" />
         <option value="$PROJECT_DIR$/android-support-v7-appcompat/build.gradle" />
         <option value="$PROJECT_DIR$/xutils/build.gradle" />
-        <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBookDetailActivity.java" />
-        <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBooksDetailActivity.java" />
-        <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/adapter/CookBookAdapter.java" />
         <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/fragment/DeviceFragment.java" />
-        <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/CookBookDetailActivity.java" />
-        <option value="$PROJECT_DIR$/GzmeLife/res/layout/dialog_progressbar_2.xml" />
-        <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/tools/ShowDialogUtil.java" />
         <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/device/SocketTool_.java" />
         <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/device/SocketToolFile.java" />
         <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/device/Config.java" />
         <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/device/SocketTool.java" />
+        <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/adapter/CookBookAdapter.java" />
+        <option value="$PROJECT_DIR$/GzmeLife/res/layout/dialog_progressbar_2.xml" />
+        <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/CookBookDetailActivity.java" />
+        <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBookDetailActivity.java" />
+        <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/tools/ShowDialogUtil.java" />
+        <option value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBooksDetailActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="368" />
-    <option name="y" value="394" />
+    <option name="x" value="167" />
+    <option name="y" value="26" />
     <option name="width" value="977" />
     <option name="height" value="718" />
   </component>
@@ -7629,8 +7512,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
@@ -7639,7 +7522,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="D:/Program Files/Android/SDK" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/fragment" />
     <property name="show.do.not.ask.upgrade.gradle.plugin.version" value="2.1.3" />
     <property name="device.picker.selection" value="14" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
@@ -7975,41 +7858,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="368" y="394" width="977" height="718" extended-state="0" />
+    <frame x="167" y="26" width="977" height="718" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4096" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4384" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3216" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35986915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1728" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4096" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4384" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39534885" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.816944" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55452436" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38304552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22087745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33828384" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1728" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.816944" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33828384" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -8018,7 +7901,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4384" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17045455" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3216" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -8034,12 +7917,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.816944" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55452436" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38304552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2655068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33828384" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -8064,163 +7947,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBookDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5138#5160#0" expanded="false" />
-            <element signature="e#5250#5277#0" expanded="false" />
-            <element signature="e#5373#5403#0" expanded="false" />
-            <element signature="e#8972#9143#0" expanded="false" />
-            <element signature="e#9142#9143#0" expanded="false" />
-            <element signature="e#10973#10974#0" expanded="false" />
-            <element signature="e#11013#11014#0" expanded="false" />
-            <element signature="e#11148#11296#0" expanded="false" />
-            <element signature="e#11295#11296#0" expanded="false" />
-            <element signature="e#19922#22493#0" expanded="false" />
-            <element signature="e#22492#22493#0" expanded="false" />
-            <element signature="e#23783#25349#0" expanded="false" />
-            <element signature="e#25348#25349#0" expanded="false" />
-            <element signature="e#34066#34309#0" expanded="false" />
-            <element signature="e#34308#34309#0" expanded="false" />
-            <element signature="e#34900#35158#0" expanded="false" />
-            <element signature="e#35157#35158#0" expanded="false" />
-            <element signature="e#35607#35850#0" expanded="false" />
-            <element signature="e#35849#35850#0" expanded="false" />
-            <element signature="e#36487#36682#0" expanded="false" />
-            <element signature="e#36681#36682#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBooksDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13110">
-          <caret line="796" column="0" selection-start-line="796" selection-start-column="0" selection-end-line="796" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5025#5047#0" expanded="false" />
-            <element signature="e#5137#5164#0" expanded="false" />
-            <element signature="e#5260#5290#0" expanded="false" />
-            <element signature="e#8861#9033#0" expanded="false" />
-            <element signature="e#9032#9033#0" expanded="false" />
-            <element signature="e#10863#10864#0" expanded="false" />
-            <element signature="e#10903#10904#0" expanded="false" />
-            <element signature="e#11038#11186#0" expanded="false" />
-            <element signature="e#11185#11186#0" expanded="false" />
-            <element signature="e#19762#20737#0" expanded="false" />
-            <element signature="e#20736#20737#0" expanded="false" />
-            <element signature="e#22029#22618#0" expanded="false" />
-            <element signature="e#22617#22618#0" expanded="false" />
-            <element signature="e#30391#30634#0" expanded="false" />
-            <element signature="e#30633#30634#0" expanded="false" />
-            <element signature="e#31225#31483#0" expanded="false" />
-            <element signature="e#31482#31483#0" expanded="false" />
-            <element signature="e#31932#32175#0" expanded="false" />
-            <element signature="e#32174#32175#0" expanded="false" />
-            <element signature="e#32812#33007#0" expanded="false" />
-            <element signature="e#33006#33007#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/CookBookDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6080">
-          <caret line="409" column="0" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/device/SocketTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11495">
-          <caret line="639" column="22" selection-start-line="639" selection-start-column="22" selection-end-line="639" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2197#2205#0" expanded="true" />
-            <element signature="e#2272#2280#0" expanded="true" />
-            <element signature="e#3101#3102#0" expanded="true" />
-            <element signature="e#3134#3135#0" expanded="true" />
-            <element signature="e#4996#7112#0" expanded="true" />
-            <element signature="e#7111#7112#0" expanded="true" />
-            <element signature="e#12430#15922#0" expanded="true" />
-            <element signature="e#15921#15922#0" expanded="true" />
-            <element signature="e#35937#35938#0" expanded="true" />
-            <element signature="e#36000#36001#0" expanded="true" />
-            <element signature="e#39131#41160#0" expanded="true" />
-            <element signature="e#39789#40539#0" expanded="true" />
-            <element signature="e#40162#40428#0" expanded="true" />
-            <element signature="e#40427#40428#0" expanded="true" />
-            <element signature="e#40538#40539#0" expanded="true" />
-            <element signature="e#41159#41160#0" expanded="true" />
-            <marker date="1475952537671" expanded="false" signature="53871:53879" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="53948:53956" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="54810:54839" ph=" { " />
-            <marker date="1475952537671" expanded="false" signature="54857:54865" ph=" }" />
-            <marker date="1475952537671" expanded="false" signature="60784:60858" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="61951:61968" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="92537:92661" ph="(Callback) (msg) → {" />
-            <marker date="1475952537671" expanded="false" signature="92964:93070" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="93410:93548" ph="() → {" />
-            <marker date="1475952537671" expanded="false" signature="93676:93717" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="93801:93834" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="94395:94408" ph="}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/dialog_progressbar_2.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/activity_cook_book_detail.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/activity_cook_book_detail.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1387">
           <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBookDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9709">
           <caret line="608" column="50" selection-start-line="608" selection-start-column="50" selection-end-line="608" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5138#5160#0" expanded="false" />
-            <element signature="e#5250#5277#0" expanded="false" />
-            <element signature="e#5373#5403#0" expanded="false" />
-            <element signature="e#8972#9143#0" expanded="false" />
-            <element signature="e#9142#9143#0" expanded="false" />
-            <element signature="e#10973#10974#0" expanded="false" />
-            <element signature="e#11013#11014#0" expanded="false" />
-            <element signature="e#11148#11296#0" expanded="false" />
-            <element signature="e#11295#11296#0" expanded="false" />
-            <element signature="e#19922#22493#0" expanded="false" />
-            <element signature="e#22492#22493#0" expanded="false" />
-            <element signature="e#23783#25349#0" expanded="false" />
-            <element signature="e#25348#25349#0" expanded="false" />
-            <element signature="e#34066#34309#0" expanded="false" />
-            <element signature="e#34308#34309#0" expanded="false" />
-            <element signature="e#34900#35158#0" expanded="false" />
-            <element signature="e#35157#35158#0" expanded="false" />
-            <element signature="e#35607#35850#0" expanded="false" />
-            <element signature="e#35849#35850#0" expanded="false" />
-            <element signature="e#36487#36682#0" expanded="false" />
-            <element signature="e#36681#36682#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -8228,30 +7980,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13319">
           <caret line="796" column="0" selection-start-line="796" selection-start-column="0" selection-end-line="796" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5025#5047#0" expanded="false" />
-            <element signature="e#5137#5164#0" expanded="false" />
-            <element signature="e#5260#5290#0" expanded="false" />
-            <element signature="e#8861#9033#0" expanded="false" />
-            <element signature="e#9032#9033#0" expanded="false" />
-            <element signature="e#10863#10864#0" expanded="false" />
-            <element signature="e#10903#10904#0" expanded="false" />
-            <element signature="e#11038#11186#0" expanded="false" />
-            <element signature="e#11185#11186#0" expanded="false" />
-            <element signature="e#19762#20737#0" expanded="false" />
-            <element signature="e#20736#20737#0" expanded="false" />
-            <element signature="e#22029#22618#0" expanded="false" />
-            <element signature="e#22617#22618#0" expanded="false" />
-            <element signature="e#30391#30634#0" expanded="false" />
-            <element signature="e#30633#30634#0" expanded="false" />
-            <element signature="e#31225#31483#0" expanded="false" />
-            <element signature="e#31482#31483#0" expanded="false" />
-            <element signature="e#31932#32175#0" expanded="false" />
-            <element signature="e#32174#32175#0" expanded="false" />
-            <element signature="e#32812#33007#0" expanded="false" />
-            <element signature="e#33006#33007#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -8269,87 +7998,58 @@
           <caret line="639" column="22" selection-start-line="639" selection-start-column="22" selection-end-line="639" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2197#2205#0" expanded="true" />
-            <element signature="e#2272#2280#0" expanded="true" />
-            <element signature="e#3101#3102#0" expanded="true" />
-            <element signature="e#3134#3135#0" expanded="true" />
-            <element signature="e#4996#7112#0" expanded="true" />
-            <element signature="e#7111#7112#0" expanded="true" />
-            <element signature="e#12430#15922#0" expanded="true" />
-            <element signature="e#15921#15922#0" expanded="true" />
-            <element signature="e#35937#35938#0" expanded="true" />
-            <element signature="e#36000#36001#0" expanded="true" />
-            <element signature="e#39131#41160#0" expanded="true" />
-            <element signature="e#39789#40539#0" expanded="true" />
-            <element signature="e#40162#40428#0" expanded="true" />
-            <element signature="e#40427#40428#0" expanded="true" />
-            <element signature="e#40538#40539#0" expanded="true" />
-            <element signature="e#41159#41160#0" expanded="true" />
-            <marker date="1475952537671" expanded="false" signature="53871:53879" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="53948:53956" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="54810:54839" ph=" { " />
-            <marker date="1475952537671" expanded="false" signature="54857:54865" ph=" }" />
-            <marker date="1475952537671" expanded="false" signature="60784:60858" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="61951:61968" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="92537:92661" ph="(Callback) (msg) → {" />
-            <marker date="1475952537671" expanded="false" signature="92964:93070" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="93410:93548" ph="() → {" />
-            <marker date="1475952537671" expanded="false" signature="93676:93717" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="93801:93834" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="94395:94408" ph="}" />
+            <element signature="e#2322#2330#0" expanded="true" />
+            <element signature="e#2397#2405#0" expanded="true" />
+            <element signature="e#5121#7237#0" expanded="true" />
+            <element signature="e#7236#7237#0" expanded="true" />
+            <element signature="e#12555#16047#0" expanded="true" />
+            <element signature="e#16046#16047#0" expanded="true" />
+            <element signature="e#39957#41986#0" expanded="true" />
+            <element signature="e#40615#41365#0" expanded="true" />
+            <element signature="e#41364#41365#0" expanded="true" />
+            <element signature="e#41985#41986#0" expanded="true" />
+            <marker date="1475980886199" expanded="false" signature="54697:54705" ph="&lt;~&gt;" />
+            <marker date="1475980886199" expanded="false" signature="54774:54782" ph="&lt;~&gt;" />
+            <marker date="1475980886199" expanded="false" signature="55636:55665" ph=" { " />
+            <marker date="1475980886199" expanded="false" signature="55683:55691" ph=" }" />
+            <marker date="1475980886199" expanded="false" signature="61610:61684" ph="(Runnable) () → {" />
+            <marker date="1475980886199" expanded="false" signature="62777:62794" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="93363:93487" ph="(Callback) (msg) → {" />
+            <marker date="1475980886199" expanded="false" signature="93790:93896" ph="(Runnable) () → {" />
+            <marker date="1475980886199" expanded="false" signature="94236:94374" ph="() → {" />
+            <marker date="1475980886199" expanded="false" signature="94502:94543" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="94627:94660" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="95221:95234" ph="}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/dialog_progressbar_2.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/activity_cook_book_detail.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/activity_cook_book_detail.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1387">
           <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBookDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9595">
           <caret line="608" column="50" selection-start-line="608" selection-start-column="50" selection-end-line="608" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5138#5160#0" expanded="false" />
-            <element signature="e#5250#5277#0" expanded="false" />
-            <element signature="e#5373#5403#0" expanded="false" />
-            <element signature="e#8972#9143#0" expanded="false" />
-            <element signature="e#9142#9143#0" expanded="false" />
-            <element signature="e#10973#10974#0" expanded="false" />
-            <element signature="e#11013#11014#0" expanded="false" />
-            <element signature="e#11148#11296#0" expanded="false" />
-            <element signature="e#11295#11296#0" expanded="false" />
-            <element signature="e#19922#22493#0" expanded="false" />
-            <element signature="e#22492#22493#0" expanded="false" />
-            <element signature="e#23783#25349#0" expanded="false" />
-            <element signature="e#25348#25349#0" expanded="false" />
-            <element signature="e#34066#34309#0" expanded="false" />
-            <element signature="e#34308#34309#0" expanded="false" />
-            <element signature="e#34900#35158#0" expanded="false" />
-            <element signature="e#35157#35158#0" expanded="false" />
-            <element signature="e#35607#35850#0" expanded="false" />
-            <element signature="e#35849#35850#0" expanded="false" />
-            <element signature="e#36487#36682#0" expanded="false" />
-            <element signature="e#36681#36682#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -8357,30 +8057,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13110">
           <caret line="796" column="0" selection-start-line="796" selection-start-column="0" selection-end-line="796" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5025#5047#0" expanded="false" />
-            <element signature="e#5137#5164#0" expanded="false" />
-            <element signature="e#5260#5290#0" expanded="false" />
-            <element signature="e#8861#9033#0" expanded="false" />
-            <element signature="e#9032#9033#0" expanded="false" />
-            <element signature="e#10863#10864#0" expanded="false" />
-            <element signature="e#10903#10904#0" expanded="false" />
-            <element signature="e#11038#11186#0" expanded="false" />
-            <element signature="e#11185#11186#0" expanded="false" />
-            <element signature="e#19762#20737#0" expanded="false" />
-            <element signature="e#20736#20737#0" expanded="false" />
-            <element signature="e#22029#22618#0" expanded="false" />
-            <element signature="e#22617#22618#0" expanded="false" />
-            <element signature="e#30391#30634#0" expanded="false" />
-            <element signature="e#30633#30634#0" expanded="false" />
-            <element signature="e#31225#31483#0" expanded="false" />
-            <element signature="e#31482#31483#0" expanded="false" />
-            <element signature="e#31932#32175#0" expanded="false" />
-            <element signature="e#32174#32175#0" expanded="false" />
-            <element signature="e#32812#33007#0" expanded="false" />
-            <element signature="e#33006#33007#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -8398,87 +8075,58 @@
           <caret line="639" column="22" selection-start-line="639" selection-start-column="22" selection-end-line="639" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2197#2205#0" expanded="true" />
-            <element signature="e#2272#2280#0" expanded="true" />
-            <element signature="e#3101#3102#0" expanded="true" />
-            <element signature="e#3134#3135#0" expanded="true" />
-            <element signature="e#4996#7112#0" expanded="true" />
-            <element signature="e#7111#7112#0" expanded="true" />
-            <element signature="e#12430#15922#0" expanded="true" />
-            <element signature="e#15921#15922#0" expanded="true" />
-            <element signature="e#35937#35938#0" expanded="true" />
-            <element signature="e#36000#36001#0" expanded="true" />
-            <element signature="e#39131#41160#0" expanded="true" />
-            <element signature="e#39789#40539#0" expanded="true" />
-            <element signature="e#40162#40428#0" expanded="true" />
-            <element signature="e#40427#40428#0" expanded="true" />
-            <element signature="e#40538#40539#0" expanded="true" />
-            <element signature="e#41159#41160#0" expanded="true" />
-            <marker date="1475952537671" expanded="false" signature="53871:53879" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="53948:53956" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="54810:54839" ph=" { " />
-            <marker date="1475952537671" expanded="false" signature="54857:54865" ph=" }" />
-            <marker date="1475952537671" expanded="false" signature="60784:60858" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="61951:61968" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="92537:92661" ph="(Callback) (msg) → {" />
-            <marker date="1475952537671" expanded="false" signature="92964:93070" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="93410:93548" ph="() → {" />
-            <marker date="1475952537671" expanded="false" signature="93676:93717" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="93801:93834" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="94395:94408" ph="}" />
+            <element signature="e#2322#2330#0" expanded="true" />
+            <element signature="e#2397#2405#0" expanded="true" />
+            <element signature="e#5121#7237#0" expanded="true" />
+            <element signature="e#7236#7237#0" expanded="true" />
+            <element signature="e#12555#16047#0" expanded="true" />
+            <element signature="e#16046#16047#0" expanded="true" />
+            <element signature="e#39957#41986#0" expanded="true" />
+            <element signature="e#40615#41365#0" expanded="true" />
+            <element signature="e#41364#41365#0" expanded="true" />
+            <element signature="e#41985#41986#0" expanded="true" />
+            <marker date="1475980886199" expanded="false" signature="54697:54705" ph="&lt;~&gt;" />
+            <marker date="1475980886199" expanded="false" signature="54774:54782" ph="&lt;~&gt;" />
+            <marker date="1475980886199" expanded="false" signature="55636:55665" ph=" { " />
+            <marker date="1475980886199" expanded="false" signature="55683:55691" ph=" }" />
+            <marker date="1475980886199" expanded="false" signature="61610:61684" ph="(Runnable) () → {" />
+            <marker date="1475980886199" expanded="false" signature="62777:62794" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="93363:93487" ph="(Callback) (msg) → {" />
+            <marker date="1475980886199" expanded="false" signature="93790:93896" ph="(Runnable) () → {" />
+            <marker date="1475980886199" expanded="false" signature="94236:94374" ph="() → {" />
+            <marker date="1475980886199" expanded="false" signature="94502:94543" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="94627:94660" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="95221:95234" ph="}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/dialog_progressbar_2.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/activity_cook_book_detail.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/activity_cook_book_detail.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1387">
           <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBookDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9709">
           <caret line="608" column="50" selection-start-line="608" selection-start-column="50" selection-end-line="608" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5138#5160#0" expanded="false" />
-            <element signature="e#5250#5277#0" expanded="false" />
-            <element signature="e#5373#5403#0" expanded="false" />
-            <element signature="e#8972#9143#0" expanded="false" />
-            <element signature="e#9142#9143#0" expanded="false" />
-            <element signature="e#10973#10974#0" expanded="false" />
-            <element signature="e#11013#11014#0" expanded="false" />
-            <element signature="e#11148#11296#0" expanded="false" />
-            <element signature="e#11295#11296#0" expanded="false" />
-            <element signature="e#19922#22493#0" expanded="false" />
-            <element signature="e#22492#22493#0" expanded="false" />
-            <element signature="e#23783#25349#0" expanded="false" />
-            <element signature="e#25348#25349#0" expanded="false" />
-            <element signature="e#34066#34309#0" expanded="false" />
-            <element signature="e#34308#34309#0" expanded="false" />
-            <element signature="e#34900#35158#0" expanded="false" />
-            <element signature="e#35157#35158#0" expanded="false" />
-            <element signature="e#35607#35850#0" expanded="false" />
-            <element signature="e#35849#35850#0" expanded="false" />
-            <element signature="e#36487#36682#0" expanded="false" />
-            <element signature="e#36681#36682#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -8486,30 +8134,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13110">
           <caret line="796" column="0" selection-start-line="796" selection-start-column="0" selection-end-line="796" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5025#5047#0" expanded="false" />
-            <element signature="e#5137#5164#0" expanded="false" />
-            <element signature="e#5260#5290#0" expanded="false" />
-            <element signature="e#8861#9033#0" expanded="false" />
-            <element signature="e#9032#9033#0" expanded="false" />
-            <element signature="e#10863#10864#0" expanded="false" />
-            <element signature="e#10903#10904#0" expanded="false" />
-            <element signature="e#11038#11186#0" expanded="false" />
-            <element signature="e#11185#11186#0" expanded="false" />
-            <element signature="e#19762#20737#0" expanded="false" />
-            <element signature="e#20736#20737#0" expanded="false" />
-            <element signature="e#22029#22618#0" expanded="false" />
-            <element signature="e#22617#22618#0" expanded="false" />
-            <element signature="e#30391#30634#0" expanded="false" />
-            <element signature="e#30633#30634#0" expanded="false" />
-            <element signature="e#31225#31483#0" expanded="false" />
-            <element signature="e#31482#31483#0" expanded="false" />
-            <element signature="e#31932#32175#0" expanded="false" />
-            <element signature="e#32174#32175#0" expanded="false" />
-            <element signature="e#32812#33007#0" expanded="false" />
-            <element signature="e#33006#33007#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -8527,34 +8152,28 @@
           <caret line="1047" column="0" selection-start-line="1047" selection-start-column="0" selection-end-line="1047" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2197#2205#0" expanded="true" />
-            <element signature="e#2272#2280#0" expanded="true" />
-            <element signature="e#3101#3102#0" expanded="true" />
-            <element signature="e#3134#3135#0" expanded="true" />
-            <element signature="e#4996#7112#0" expanded="true" />
-            <element signature="e#7111#7112#0" expanded="true" />
-            <element signature="e#12430#15922#0" expanded="true" />
-            <element signature="e#15921#15922#0" expanded="true" />
-            <element signature="e#35937#35938#0" expanded="true" />
-            <element signature="e#36000#36001#0" expanded="true" />
-            <element signature="e#39131#41160#0" expanded="true" />
-            <element signature="e#39789#40539#0" expanded="true" />
-            <element signature="e#40162#40428#0" expanded="true" />
-            <element signature="e#40427#40428#0" expanded="true" />
-            <element signature="e#40538#40539#0" expanded="true" />
-            <element signature="e#41159#41160#0" expanded="true" />
-            <marker date="1475952537671" expanded="false" signature="53871:53879" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="53948:53956" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="54810:54839" ph=" { " />
-            <marker date="1475952537671" expanded="false" signature="54857:54865" ph=" }" />
-            <marker date="1475952537671" expanded="false" signature="60784:60858" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="61951:61968" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="92537:92661" ph="(Callback) (msg) → {" />
-            <marker date="1475952537671" expanded="false" signature="92964:93070" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="93410:93548" ph="() → {" />
-            <marker date="1475952537671" expanded="false" signature="93676:93717" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="93801:93834" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="94395:94408" ph="}" />
+            <element signature="e#2322#2330#0" expanded="true" />
+            <element signature="e#2397#2405#0" expanded="true" />
+            <element signature="e#5121#7237#0" expanded="true" />
+            <element signature="e#7236#7237#0" expanded="true" />
+            <element signature="e#12555#16047#0" expanded="true" />
+            <element signature="e#16046#16047#0" expanded="true" />
+            <element signature="e#39957#41986#0" expanded="true" />
+            <element signature="e#40615#41365#0" expanded="true" />
+            <element signature="e#41364#41365#0" expanded="true" />
+            <element signature="e#41985#41986#0" expanded="true" />
+            <marker date="1475980886199" expanded="false" signature="54697:54705" ph="&lt;~&gt;" />
+            <marker date="1475980886199" expanded="false" signature="54774:54782" ph="&lt;~&gt;" />
+            <marker date="1475980886199" expanded="false" signature="55636:55665" ph=" { " />
+            <marker date="1475980886199" expanded="false" signature="55683:55691" ph=" }" />
+            <marker date="1475980886199" expanded="false" signature="61610:61684" ph="(Runnable) () → {" />
+            <marker date="1475980886199" expanded="false" signature="62777:62794" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="93363:93487" ph="(Callback) (msg) → {" />
+            <marker date="1475980886199" expanded="false" signature="93790:93896" ph="(Runnable) () → {" />
+            <marker date="1475980886199" expanded="false" signature="94236:94374" ph="() → {" />
+            <marker date="1475980886199" expanded="false" signature="94502:94543" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="94627:94660" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="95221:95234" ph="}" />
           </folding>
         </state>
       </provider>
@@ -8572,34 +8191,28 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2197#2205#0" expanded="true" />
-            <element signature="e#2272#2280#0" expanded="true" />
-            <element signature="e#3101#3102#0" expanded="true" />
-            <element signature="e#3134#3135#0" expanded="true" />
-            <element signature="e#4996#7112#0" expanded="true" />
-            <element signature="e#7111#7112#0" expanded="true" />
-            <element signature="e#12430#15922#0" expanded="true" />
-            <element signature="e#15921#15922#0" expanded="true" />
-            <element signature="e#35937#35938#0" expanded="true" />
-            <element signature="e#36000#36001#0" expanded="true" />
-            <element signature="e#39131#41160#0" expanded="true" />
-            <element signature="e#39789#40539#0" expanded="true" />
-            <element signature="e#40162#40428#0" expanded="true" />
-            <element signature="e#40427#40428#0" expanded="true" />
-            <element signature="e#40538#40539#0" expanded="true" />
-            <element signature="e#41159#41160#0" expanded="true" />
-            <marker date="1475952537671" expanded="false" signature="53871:53879" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="53948:53956" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="54810:54839" ph=" { " />
-            <marker date="1475952537671" expanded="false" signature="54857:54865" ph=" }" />
-            <marker date="1475952537671" expanded="false" signature="60784:60858" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="61951:61968" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="92537:92661" ph="(Callback) (msg) → {" />
-            <marker date="1475952537671" expanded="false" signature="92964:93070" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="93410:93548" ph="() → {" />
-            <marker date="1475952537671" expanded="false" signature="93676:93717" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="93801:93834" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="94395:94408" ph="}" />
+            <element signature="e#2322#2330#0" expanded="true" />
+            <element signature="e#2397#2405#0" expanded="true" />
+            <element signature="e#5121#7237#0" expanded="true" />
+            <element signature="e#7236#7237#0" expanded="true" />
+            <element signature="e#12555#16047#0" expanded="true" />
+            <element signature="e#16046#16047#0" expanded="true" />
+            <element signature="e#39957#41986#0" expanded="true" />
+            <element signature="e#40615#41365#0" expanded="true" />
+            <element signature="e#41364#41365#0" expanded="true" />
+            <element signature="e#41985#41986#0" expanded="true" />
+            <marker date="1475980886199" expanded="false" signature="54697:54705" ph="&lt;~&gt;" />
+            <marker date="1475980886199" expanded="false" signature="54774:54782" ph="&lt;~&gt;" />
+            <marker date="1475980886199" expanded="false" signature="55636:55665" ph=" { " />
+            <marker date="1475980886199" expanded="false" signature="55683:55691" ph=" }" />
+            <marker date="1475980886199" expanded="false" signature="61610:61684" ph="(Runnable) () → {" />
+            <marker date="1475980886199" expanded="false" signature="62777:62794" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="93363:93487" ph="(Callback) (msg) → {" />
+            <marker date="1475980886199" expanded="false" signature="93790:93896" ph="(Runnable) () → {" />
+            <marker date="1475980886199" expanded="false" signature="94236:94374" ph="() → {" />
+            <marker date="1475980886199" expanded="false" signature="94502:94543" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="94627:94660" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="95221:95234" ph="}" />
           </folding>
         </state>
       </provider>
@@ -8682,13 +8295,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/fragment_device.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="84" column="44" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="44" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GzmeLife/res/values/dimens.xml">
@@ -8705,120 +8318,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/fragment/DeviceFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="336" column="67" selection-start-line="336" selection-start-column="67" selection-end-line="336" selection-end-column="67" />
-          <folding>
-            <element signature="e#8744#8878#0" expanded="false" />
-            <element signature="e#8877#8878#0" expanded="false" />
-            <element signature="e#11738#11872#0" expanded="false" />
-            <element signature="e#11871#11872#0" expanded="false" />
-            <element signature="e#14703#14704#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/activity_cook_book_detail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="156" column="47" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/tools/ShowDialogUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1256#1569#0" expanded="false" />
-            <element signature="e#1568#1569#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBookDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9443">
-          <caret line="600" column="15" selection-start-line="600" selection-start-column="15" selection-end-line="600" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5138#5160#0" expanded="false" />
-            <element signature="e#5250#5277#0" expanded="false" />
-            <element signature="e#5373#5403#0" expanded="false" />
-            <element signature="e#8972#9143#0" expanded="false" />
-            <element signature="e#9142#9143#0" expanded="false" />
-            <element signature="e#10973#10974#0" expanded="false" />
-            <element signature="e#11013#11014#0" expanded="false" />
-            <element signature="e#11148#11296#0" expanded="false" />
-            <element signature="e#11295#11296#0" expanded="false" />
-            <element signature="e#19922#22493#0" expanded="false" />
-            <element signature="e#22492#22493#0" expanded="false" />
-            <element signature="e#23783#25349#0" expanded="false" />
-            <element signature="e#25348#25349#0" expanded="false" />
-            <element signature="e#34066#34309#0" expanded="false" />
-            <element signature="e#34308#34309#0" expanded="false" />
-            <element signature="e#34900#35158#0" expanded="false" />
-            <element signature="e#35157#35158#0" expanded="false" />
-            <element signature="e#35607#35850#0" expanded="false" />
-            <element signature="e#35849#35850#0" expanded="false" />
-            <element signature="e#36487#36682#0" expanded="false" />
-            <element signature="e#36681#36682#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/dialog_progressbar_2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBooksDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12711">
-          <caret line="775" column="37" selection-start-line="775" selection-start-column="37" selection-end-line="775" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#5025#5047#0" expanded="false" />
-            <element signature="e#5137#5164#0" expanded="false" />
-            <element signature="e#5260#5290#0" expanded="false" />
-            <element signature="e#8861#9033#0" expanded="false" />
-            <element signature="e#9032#9033#0" expanded="false" />
-            <element signature="e#10863#10864#0" expanded="false" />
-            <element signature="e#10903#10904#0" expanded="false" />
-            <element signature="e#11038#11186#0" expanded="false" />
-            <element signature="e#11185#11186#0" expanded="false" />
-            <element signature="e#19762#20737#0" expanded="false" />
-            <element signature="e#20736#20737#0" expanded="false" />
-            <element signature="e#22029#22618#0" expanded="false" />
-            <element signature="e#22617#22618#0" expanded="false" />
-            <element signature="e#30391#30634#0" expanded="false" />
-            <element signature="e#30633#30634#0" expanded="false" />
-            <element signature="e#31225#31483#0" expanded="false" />
-            <element signature="e#31482#31483#0" expanded="false" />
-            <element signature="e#31932#32175#0" expanded="false" />
-            <element signature="e#32174#32175#0" expanded="false" />
-            <element signature="e#32812#33007#0" expanded="false" />
-            <element signature="e#33006#33007#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GzmeLife/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8827,82 +8330,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="11" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#332#333#0" expanded="false" />
-            <element signature="e#356#357#0" expanded="false" />
-            <element signature="e#402#403#0" expanded="false" />
-            <element signature="e#437#438#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#488#489#0" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
-            <element signature="e#669#670#0" expanded="false" />
-            <element signature="e#693#694#0" expanded="false" />
-            <element signature="e#739#740#0" expanded="false" />
-            <element signature="e#774#775#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/adapter/CookBookAdapter.java">
+    <entry file="file://D:/Program Files/Android/SDK/sources/android-21/android/app/Dialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="350" column="16" selection-start-line="350" selection-start-column="15" selection-end-line="350" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Android/SDK/sources/android-21/android/app/AlertDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/activity_cook_book_detail.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="156" column="47" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/activity_net_cook_book_detail.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/device/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="157">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/CookBookDetailActivity.java">
+    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/item_lv_pms_file.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/adapter/CookBookAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="389" column="12" selection-start-line="389" selection-start-column="12" selection-end-line="389" selection-end-column="12" />
+        <state relative-caret-position="141">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/fragment/DeviceFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="1058" column="66" selection-start-line="1058" selection-start-column="66" selection-end-line="1058" selection-end-column="66" />
+          <folding>
+            <element signature="e#11445#14704#0" expanded="true" />
+            <element signature="e#14703#14704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/res/layout/dialog_progressbar_2.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/device/SocketTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="244" column="17" selection-start-line="244" selection-start-column="17" selection-end-line="244" selection-end-column="51" />
+        <state relative-caret-position="142">
+          <caret line="736" column="58" selection-start-line="736" selection-start-column="58" selection-end-line="736" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2197#2205#0" expanded="true" />
-            <element signature="e#2272#2280#0" expanded="true" />
-            <element signature="e#3101#3102#0" expanded="true" />
-            <element signature="e#3134#3135#0" expanded="true" />
-            <element signature="e#4996#7112#0" expanded="true" />
-            <element signature="e#7111#7112#0" expanded="true" />
-            <element signature="e#12430#15922#0" expanded="true" />
-            <element signature="e#15921#15922#0" expanded="true" />
-            <element signature="e#35937#35938#0" expanded="true" />
-            <element signature="e#36000#36001#0" expanded="true" />
-            <element signature="e#39131#41160#0" expanded="true" />
-            <element signature="e#39789#40539#0" expanded="true" />
-            <element signature="e#40162#40428#0" expanded="true" />
-            <element signature="e#40427#40428#0" expanded="true" />
-            <element signature="e#40538#40539#0" expanded="true" />
-            <element signature="e#41159#41160#0" expanded="true" />
-            <marker date="1475952537671" expanded="false" signature="53871:53879" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="53948:53956" ph="&lt;~&gt;" />
-            <marker date="1475952537671" expanded="false" signature="54810:54839" ph=" { " />
-            <marker date="1475952537671" expanded="false" signature="54857:54865" ph=" }" />
-            <marker date="1475952537671" expanded="false" signature="60784:60858" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="61951:61968" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="92537:92661" ph="(Callback) (msg) → {" />
-            <marker date="1475952537671" expanded="false" signature="92964:93070" ph="(Runnable) () → {" />
-            <marker date="1475952537671" expanded="false" signature="93410:93548" ph="() → {" />
-            <marker date="1475952537671" expanded="false" signature="93676:93717" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="93801:93834" ph="}" />
-            <marker date="1475952537671" expanded="false" signature="94395:94408" ph="}" />
+            <element signature="e#2322#2330#0" expanded="true" />
+            <element signature="e#2397#2405#0" expanded="true" />
+            <element signature="e#5121#7237#0" expanded="true" />
+            <element signature="e#7236#7237#0" expanded="true" />
+            <element signature="e#12555#16047#0" expanded="true" />
+            <element signature="e#16046#16047#0" expanded="true" />
+            <element signature="e#39957#41986#0" expanded="true" />
+            <element signature="e#40615#41365#0" expanded="true" />
+            <element signature="e#41364#41365#0" expanded="true" />
+            <element signature="e#41985#41986#0" expanded="true" />
+            <marker date="1475980886199" expanded="false" signature="54697:54705" ph="&lt;~&gt;" />
+            <marker date="1475980886199" expanded="false" signature="54774:54782" ph="&lt;~&gt;" />
+            <marker date="1475980886199" expanded="false" signature="55636:55665" ph=" { " />
+            <marker date="1475980886199" expanded="false" signature="55683:55691" ph=" }" />
+            <marker date="1475980886199" expanded="false" signature="61610:61684" ph="(Runnable) () → {" />
+            <marker date="1475980886199" expanded="false" signature="62777:62794" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="93363:93487" ph="(Callback) (msg) → {" />
+            <marker date="1475980886199" expanded="false" signature="93790:93896" ph="(Runnable) () → {" />
+            <marker date="1475980886199" expanded="false" signature="94236:94374" ph="() → {" />
+            <marker date="1475980886199" expanded="false" signature="94502:94543" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="94627:94660" ph="}" />
+            <marker date="1475980886199" expanded="false" signature="95221:95234" ph="}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/tools/ShowDialogUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+          <folding>
+            <element signature="e#2515#2516#0" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBooksDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="787" column="7" selection-start-line="787" selection-start-column="7" selection-end-line="787" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/NetCookBookDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="831" column="54" selection-start-line="831" selection-start-column="54" selection-end-line="831" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GzmeLife/src/com/gzmelife/app/activity/CookBookDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="408" column="16" selection-start-line="408" selection-start-column="16" selection-end-line="408" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>

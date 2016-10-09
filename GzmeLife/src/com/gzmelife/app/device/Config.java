@@ -15,8 +15,8 @@ public class Config {
 	public static boolean isOtherFile = false;
 	/** 20161008上传菜谱的总大小 */
 	public static int fileSize = 0;
-	/** 20161009是否取消文件传输 */
-	public static boolean isTransmit = false;
+	/** 20161009取消文件传输：true=取消*/
+	public static boolean cancelTransmit = false;
 
 	public static int flag=0;
 	public static int position = 0; // 本地文件位置
@@ -79,25 +79,24 @@ public class Config {
 	public static byte[] bufListFile = { (byte) 0xF3, 0x01 };
 	public static byte[] bufListFileOver = { (byte) 0xF3, 0x02 };
 
-	// F4 00 发送/响应帧 获取录波文件大小 上召录波文件
+	/** F4 00 发送/响应帧 获取录波文件大小 上召录波文件*/
 	public static byte[] bufFileLenth = { (byte) 0xF4, 0x00 };
-	// 01 发送/响应帧 上召录波数据
-	// 02 发送/响应帧 录波发送结束
-	public static byte[] bufFileStop = { (byte) 0xF4, 0x02 };
-
-	/**
-	 * 下载（上送）录波数据：F4 01
-	 */
+	/** F4 01：发送/响应帧 上召录波数据//下载（上送）录波数据 */
 	public static byte[] bufFileAck = { (byte) 0xF4, 0x01 };// ok
+	/** F4 02：发送/响应帧 录波发送结束 */
+	public static byte[] bufFileStop = { (byte) 0xF4, 0x02 };
+	/** F4 02：发送/响应帧 中断录波传输 */
+	public static byte[] bufFileCancel = { (byte) 0xF4, 0x03 };
+
 
 	/** F5 00 发送/确认帧 下发录波文件大小 下发录波文件 */
 	public static byte[] bufDownFileInfo = { (byte) 0xF5, 0x00 };
-	
 	/** F5 01 发送/确认帧 下发录波数据 */
 	public static byte[] bufDownFileData = { (byte) 0xF5, 0x01 };
-	
-	/** 02 发送/确认帧 数据发送结束 */
+	/** F5 02 发送/确认帧 数据发送结束 */
 	public static byte[] bufDownFileStop = { (byte) 0xF5, 0x02 };
+	/** F5 02 发送/确认帧 数据发送结束 */
+	public static byte[] bufDownFileCancel = { (byte) 0xF5, 0x03 };
 
 	// F6 00 发送/确认帧 删除装置生成录波文件操作 删除文件
 	public static byte[] bufDelSelfFile = { (byte) 0xF6, 0x00 };

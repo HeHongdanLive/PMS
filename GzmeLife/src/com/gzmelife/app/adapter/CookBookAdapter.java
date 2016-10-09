@@ -89,6 +89,7 @@ public class CookBookAdapter extends BaseAdapter {
 				}
 			}
 		});
+
         convertView.setOnLongClickListener(new OnLongClickListener() {
 			@Override
 			public boolean onLongClick(View v) {

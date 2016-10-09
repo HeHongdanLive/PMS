@@ -18,16 +18,19 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.gzmelife.app.R;
+import com.gzmelife.app.device.Config;
 
 public class ShowDialogUtil {
 	private static ProgressBar pb_circle;
 	private static TextView tv_title;
+
+	/** 取消按钮 */
 	private static Button btn_cancel;
 	
 	public static AlertDialog getShowDialog(Activity context, int layout,
 			int width, int height, int x, int y, boolean isclickmiss) {
 		AlertDialog.Builder ab = new AlertDialog.Builder(context);
-		AlertDialog dlg = ab.create();
+		final AlertDialog dlg = ab.create();
 		dlg.setCanceledOnTouchOutside(isclickmiss);
 		Window w = dlg.getWindow();
 		WindowManager.LayoutParams lp = w.getAttributes();
@@ -61,7 +64,10 @@ public class ShowDialogUtil {
 		btn_cancel.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-
+				Config.cancelTransmit = true;
+				if (dlg.isShowing()){
+					dlg.dismiss();
+				}
 			}
 		});
 
@@ -75,7 +81,12 @@ public class ShowDialogUtil {
 
 		return dlg;
 	}
-	
+
+	/** 20161009设置是否显示取消按钮 */
+	public static void setCancelButton(int visibility) {
+		btn_cancel.setVisibility(visibility);
+	}
+
 	public static void setTitle(String str) {
 		if (tv_title != null) {
 			tv_title.setText(str);
