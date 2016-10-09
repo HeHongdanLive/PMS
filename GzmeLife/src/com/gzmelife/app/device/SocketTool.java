@@ -180,7 +180,7 @@ public class SocketTool {
     /** 20161009重构socket发送数据且接收数据 */
     public void sendMessage(final byte[] msg) {
         if (Config.isF5) {//20161009当前为上传菜谱
-            System.out.println("20161009当前为上传菜谱");
+            System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^20161009当前为上传菜谱状态");
             new Thread(new Runnable() {
                 @Override
                 public void run() {
@@ -207,7 +207,7 @@ public class SocketTool {
                             output.write(msg);
 
 
-                            System.out.println("\r\nsendMessage-------------------------------------------------------------------------------------------------------------------------------");
+                            System.out.println("\r\nsendMessage---------------------------------------------------------------------------");
                             for (int i = 0; i < msg.length; i++) {
                                 if (i == 3) {
                                     System.out.print("【 ");
@@ -220,7 +220,7 @@ public class SocketTool {
                                 }
                                 System.out.print(byte2HexString(msg[i]) + " ");
                             }
-                            System.out.println("\r\nsendMessage-------------------------------------------------------------------------------------------------------------------------------");
+                            System.out.println("\r\nsendMessage---------------------------------------------------------------------------");
                             System.out.println(" ");
 
 
@@ -284,7 +284,7 @@ public class SocketTool {
 
 
         } else {//20161009当前为非上传菜谱
-            System.out.println("20161009当前为非上传菜谱");
+            System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^20161009当前为^^^^非上传菜谱状态");
 
             receiveMessage();//20160921调用接收方法
 
@@ -311,6 +311,23 @@ public class SocketTool {
                     try {
                         if (msg != null) {
                             output.write(msg);
+
+                            System.out.println("\r\nsendMessage---------------------------------------------------------------------------");
+                            for (int i = 0; i < msg.length; i++) {
+                                if (i == 3) {
+                                    System.out.print("【 ");
+                                }
+                                if (i == 5) {
+                                    System.out.print("】 | ");
+                                }
+                                if (i == 6) {
+                                    System.out.print("| ");
+                                }
+                                System.out.print(byte2HexString(msg[i]) + " ");
+                            }
+                            System.out.println("\r\nsendMessage---------------------------------------------------------------------------");
+                            System.out.println(" ");
+
                             output.flush();
                         } else {
                             return;
@@ -621,7 +638,7 @@ public class SocketTool {
 
         try {
             isSendCMD = true;
-            System.out.println("--->发送连接、心跳");
+            System.out.println("HHD发送保持连接：心跳");
 
             timeCnt = 0;
             timeCntHeart = 0;
@@ -629,13 +646,11 @@ public class SocketTool {
             bufLastTemp = new byte[bufTemp.length];
             for (int i = 0; i < bufTemp.length; i++) {
                 bufLastTemp[i] = bufTemp[i];
-                System.out.print("--->发送数据" + Integer.toHexString(DataUtil.hexToTen(bufTemp[i])) + " ");
             }
             // 记录所发的指令，用于后续若指令失败时重发
             bufLastTemp = new byte[bufTemp.length];
             Log.i(TAG, "PMS_Send(byte[] bufTemp1) sendMessage(bufTemp);");
             sendMessage(bufTemp);
-            System.out.print("--->发送数据bufTemp" + bufTemp + " ");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -735,8 +750,7 @@ public class SocketTool {
                                 if (num < result.length) {
                                     bufTemp[num] = result[num];
                                     num++;
-                                    System.out.print(
-                                            "aaaa：" + Integer.toHexString(DataUtil.hexToTen(bufTemp[num])) + ",");
+                                    System.out.println("HHD：Sicket.java->handler->拿到数据后先判断：" + Integer.toHexString(DataUtil.hexToTen(bufTemp[num])) + ",");
                                 }
 
                                 int check = 0;
@@ -748,15 +762,11 @@ public class SocketTool {
                                     check += temp;
                                 }
                                 if (DataUtil.hexToTen(bufTemp[num - 1]) == (check % 256)) {
-                                    System.out.println("正确的len=" + len);
-                                    System.out.println("****-11111****" + DataUtil.hexToTen(bufTemp[6]));
                                     Done(bufTemp, num);
                                     run = false;
                                     return true;
                                 } else {
-                                    System.out.println(
-                                            "数据包和校验失败" + ", bufTemp[num - 1]=" + DataUtil.hexToTen(bufTemp[num - 1])
-                                                    + ", check % 256=" + (check % 256) + ", len=" + len);
+                                    System.out.println("数据包和校验失败" + ", bufTemp[num - 1]=" + DataUtil.hexToTen(bufTemp[num - 1]) + ", check % 256=" + (check % 256) + ", len=" + len);
 
                                     if (len > 0) {
                                         run = false;
@@ -766,7 +776,6 @@ public class SocketTool {
                                 if (len > 0) {
                                     UartS = false;
                                     num = 0;
-                                    System.out.print("bbbb：");
                                 }
                             }
                         }
@@ -786,7 +795,7 @@ public class SocketTool {
                             timeCnt = 0;
                             timeCntHeart = 0;
                             RecTimeOut = false;
-                            System.out.print("cccc：" + Integer.toHexString(DataUtil.hexToTen(bufTemp[num])) + ",");
+//                            System.out.print("cccc：" + Integer.toHexString(DataUtil.hexToTen(bufTemp[num])) + ",");
                         } else {
                             // Log.e("MyError", "第一个字节不是OxA5");
                             // MessageBox.Show("Error");
@@ -1419,6 +1428,12 @@ public class SocketTool {
                             if (MaxReCnt > 2) {
                                 MaxReCnt = 0;
                                 ConFalg = false;
+                                if (Config.isF5){
+                                    Config.isF5 = false;//20161009重置为非上传菜谱状态
+                                    System.out.println("HHD：SocketTool.java重置为非上传菜谱状态（Config.isF5=false=）"+Config.isF5);
+                                    System.out.println("HHD：SocketTool.java20161009取消文件传输：true=取消（Config.cancelTransmit=）"+Config.cancelTransmit);
+                                }
+
                                 KappUtils.showToast(context, "操作失败，进行重连");
                                 System.out.println("达到最大重发次数,重新建立连接帧");
                                 Config.SERVER_HOST_NAME = "";
@@ -1432,13 +1447,12 @@ public class SocketTool {
                         /** 心跳计时，30S无操作发送心跳指令 */
                         timeCntHeart++;
                         if (timeCntHeart % 10 == 0) {
-                            System.out.println("心跳计时:" + timeCntHeart);
+                            System.out.println("心跳计时（HHD30秒为超时）:" + timeCntHeart);
                         }
                         if (timeCntHeart >= 30) {
 
-                            System.out.println("请求发送心跳包");
-                            Log.i(TAG, "HeartTimeCount-->onTick  PMS_Send(Config.bufHearbeat); 心跳计时："
-                                    + String.valueOf(timeCntHeart));
+//                            System.out.println("请求发送心跳包");
+                            Log.i(TAG, "HeartTimeCount-->onTick  PMS_Send(Config.bufHearbeat); 心跳计时：" + String.valueOf(timeCntHeart));
                             PMS_Send(Config.bufHearbeat);
                             timeCntHeart = 0;
                         }

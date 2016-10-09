@@ -400,8 +400,7 @@ public class SocketToolForState {
 								if (num < result.length) {
 									bufTemp[num] = result[num];
 									num++;
-									System.out.print( "aaaa：" + Integer.toHexString(DataUtil
-											.hexToTen(bufTemp[num])) + ",");
+									System.out.println( "HHD：SocketToolForState：" + Integer.toHexString(DataUtil.hexToTen(bufTemp[num])) + ",");
 								}
 
 								int check = 0;
@@ -878,6 +877,10 @@ public class SocketToolForState {
 							MaxReCnt = 0;
 							ConFalg = false;
 							MyLog.i(MyLog.TAG_I_INFO, "达到最大重发次数,重新建立连接");
+							if (Config.isF5){
+								Config.isF5 = false;//20161009重置为非上传菜谱状态
+								System.out.println("HHD：SocketToolForState.java重置为非上传菜谱状态（Config.isF5=false）"+Config.isF5);
+							}
 							KappUtils.showToast(context, "操作失败，进行重连");
 							connectTimes = 3;
 							isConnected = false;

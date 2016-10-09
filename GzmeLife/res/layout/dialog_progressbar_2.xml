@@ -34,12 +34,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/shape_titlecolor_bg"
-            android:padding="@dimen/spacing_small"
+            android:padding="15dp"
             android:layout_marginTop="15dp"
             android:text="取\t\t消"
             android:textSize="15sp"
             android:textColor="@color/white"
             />
+        <!--android:padding="@dimen/spacing_small"-->
         <!--android:visibility="gone"-->
         <!--android:padding="@dimen/spacing_small"-->
     </LinearLayout>

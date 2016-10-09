@@ -777,6 +777,9 @@ public class NetCookBooksDetailActivity extends BaseActivity implements
 				ShowDialogUtil.setCancelButton(View.GONE);
 				break;
 			case 1:
+				Config.isF5 = false;/** 非向PMS传送菜谱 */
+				System.out.println("HHD：NetCookBooksDetailActivity.java收到PMS返回取消上传菜谱文件报文（Config.isF5=false）=" + Config.isF5);
+
 				KappUtils.showToast(context, "上传文件到智能锅失败");
 				break;
 			case 2:

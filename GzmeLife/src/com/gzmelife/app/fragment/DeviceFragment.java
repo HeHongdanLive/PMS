@@ -302,7 +302,7 @@ public class DeviceFragment extends Fragment {
 								// System.out.print("----发送心跳包----");
 								// }
 								byte[] bufFilePath = { 0x00 };//20160913
-								System.out.print("----请求录波文件总数3333333----");
+//								System.out.print("----请求录波文件总数3333333----");
 								fileFlag = true;
 								selfFileList.clear();
 								if (Config.bufGetFileNum != null
@@ -324,7 +324,7 @@ public class DeviceFragment extends Fragment {
 						}).start();
 					
 					
-					System.out.print("----请求录波文件总数0----");
+//					System.out.print("----请求录波文件总数0----");
 
 				} else {
 					rb_selfFile.setTextColor(Color.parseColor("#3f3f3f"));
@@ -529,7 +529,7 @@ private void getInfo(){
 									}
 									selfAdapter.notifyDataSetChanged();//20160919更新列表数据
 									
-									System.out.print("----收到录波文件刷新列表----");
+//									System.out.print("----收到录波文件刷新列表----");
 									// socketTool.PMS_Send(Config.bufStatus);
 								} else {
 									downFileList.clear();
@@ -580,7 +580,7 @@ private void getInfo(){
 								break;
 							case 9:
 								// 发送广播，四个主界面左上角图标变更.首次连接成功查询状态，之后每次心跳成功后发送查询
-								System.out.print("----对时功能成功----");
+								System.out.println("----DeviceFragmentHHD对时功能成功----\n\r");
 								onResume();
 								break;
 							}
@@ -1092,7 +1092,7 @@ private void getInfo(){
 						socketTool.initClientSocket(); // 根据不同的ip，建立不同的socket
 						socketTool.startHeartTimer();//20160920启动心跳计时
 						if (selfFileList.size() == 0 && downFileList.size() == 0) {//20160920录波&菜谱文件列表长度为0
-							System.out.print("----请求菜谱文件列表总数1----");
+//							System.out.print("----请求菜谱文件列表总数1----");
 							fileFlag = true;//20160920录波文件
 //							showDlg();
 							getPMSSelfFileNum();//20160920获取录波文件数量
@@ -1107,13 +1107,13 @@ private void getInfo(){
 			} else {//20160920心跳计时为开启状态
 				if (selfFileList.size() == 0 && rb_selfFile.isChecked()) {//20160920如果录波列表为0而且为选中状态
 					final byte[] bufFilePath = { 0x00 };
-					System.out.print("----请求录波文件总数2----");
+//					System.out.print("----请求录波文件总数2----");
 					fileFlag = true;
 					// showDlg();
 					socketTool.PMS_Send(Config.bufGetFileNum, bufFilePath);//20160920获取录波文件数量
 //					showDlg();
 				} else if (rb_downFile.isChecked() && downFileList.size() == 0) {//20160920如果菜谱列表为0而且为选中状态
-					System.out.print("----请求菜谱文件列表总数2----");
+//					System.out.print("----请求菜谱文件列表总数2----");
 					fileFlag = false;
 					getPMSDownFileNum();
 				}
@@ -1159,7 +1159,7 @@ private void getInfo(){
 		selfFileList.clear();//20160920清空录波文件列表
 
 		socketTool.PMS_Send(Config.bufGetFileNum, bufFilePath);//20160920“F3 00”获取录波文件数量
-		System.out.print("----发送3----");
+//		System.out.print("----发送3----");
 
 	}
 
