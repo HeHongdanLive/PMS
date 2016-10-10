@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text=""
+                android:text="80"
                 android:textColor="@color/green" />
 
             <FrameLayout
@@ -61,6 +61,7 @@
                     android:paddingBottom="@dimen/spacing_small"
                     android:paddingLeft="@dimen/spacing_small"
                     android:paddingRight="30dp"
+                     android:text="步骤描述\n重量变化\n食材"
                     android:paddingTop="@dimen/spacing_small" />
 
                 <LinearLayout

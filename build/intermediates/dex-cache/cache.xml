@@ -1,3 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\Work\Git\PMS\GzmeLife\build\intermediates\exploded-aar\PMS\EspTouch_Demo\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="eb75e8dc29e3162bb207e7fe7e6f41e4c6b5d958">
+        <dex dex="D:\Work\Git\PMS\GzmeLife\build\intermediates\transforms\dex\debug\folders\1000\4\PMS-EspTouch_Demo-unspecified_943c1f60962a0ed1952e0549151d7fc76f1ad506\classes.dex" />
+    </item>
+    <item
+        jar="D:\Work\Git\PMS\GzmeLife\build\intermediates\exploded-aar\PMS\EspTouch_Demo\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="7f6b85231a0b6b7b901f90a74cc718d718fe3d2e">
+        <dex dex="D:\Work\Git\PMS\GzmeLife\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v4_a39bb4ce0c0bb0aed823e79d2d9f0f3fcd67d538\classes.dex" />
+    </item>
+    <item
+        jar="D:\Work\Git\PMS\GzmeLife\build\intermediates\exploded-aar\PMS\xutils\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="fbb8c0e1eaa1746be0db8fee97bcc1db369b8a72">
+        <dex dex="D:\Work\Git\PMS\GzmeLife\build\intermediates\transforms\dex\debug\folders\1000\4\PMS-xutils-unspecified_0cbb912e9c3993bf47f707cb10922bfc4970cdc1\classes.dex" />
+    </item>
+
+</items>

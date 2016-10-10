@@ -27,8 +27,7 @@ public class ShowDialogUtil {
 	/** 取消按钮 */
 	private static Button btn_cancel;
 	
-	public static AlertDialog getShowDialog(Activity context, int layout,
-			int width, int height, int x, int y, boolean isclickmiss) {
+	public static AlertDialog getShowDialog(Activity context, int layout, int width, int height, int x, int y, boolean isclickmiss) {
 		AlertDialog.Builder ab = new AlertDialog.Builder(context);
 		final AlertDialog dlg = ab.create();
 		dlg.setCanceledOnTouchOutside(isclickmiss);
