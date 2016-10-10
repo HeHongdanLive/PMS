@@ -142,15 +142,17 @@ public class CookBookStopAdapter extends BaseAdapter {
 				foodBuffer.append(timeNode.FoodNames[i]);
 				foodBuffer.append(" ");
 				foodBuffer.append(timeNode.FoodWgts[i]);
-				foodBuffer.append("g");
-				foodBuffer.append(";");
+				foodBuffer.append(" g");
+				foodBuffer.append("；");
 			}
 		}
 		// if(listTimeNode.size()-1==position&&position!=0){
 		// viewHolder.v_line.setVisibility(View.GONE);
 		// }
-		viewHolder.tv_content.setText("步骤描述:" + timeNode.Tips + "\n\n食材："
-				+ foodBuffer.toString());
+		viewHolder.tv_content.setText("步骤描述：" + timeNode.Tips +"\n\n重量变化：" + timeNode.wetsTemp + " g\n\n食材：" + foodBuffer.toString());
+		
+		//viewHolder.tv_content.setText();
+		
 //		String name = foodBuffer.toString();
 		
 //		String result = name.substring(0, name.indexOf(";"));

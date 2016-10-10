@@ -408,12 +408,12 @@ public class DeviceFragment extends Fragment {
 								// socketTool.startHeartTimer();
 								// System.out.print("----发送心跳包----");
 								// }
-								System.out.print("----请求菜谱文件总数3333333----");
+//								System.out.println("----请求菜谱文件总数3333333----");
 								final byte[] bufFilePath = { 0x01 };
 								fileFlag = false;
 								downFileList.clear();
 								socketTool.PMS_Send(Config.bufGetFileNum, bufFilePath);
-								System.out.print("----发送4444----");
+//								System.out.println("----发送4444----");
 								// getPMSDownFileNum();
 								Looper.loop();
 								
@@ -1313,13 +1313,13 @@ private void MenuFileRefrash(){
 				// socketTool.startHeartTimer();
 				// System.out.print("----发送心跳包----");
 				// }
-				System.out.print("----请求菜谱文件总数3333333----");
+//				System.out.println("----请求菜谱文件总数3333333----");
 				final byte[] bufFilePath = { 0x01 };
 				fileFlag = false;
 				downFileList.clear();
 				socketTool.PMS_Send(Config.bufGetFileNum,
 						bufFilePath);
-				System.out.print("----发送4444----");
+//				System.out.println("----发送4444----");
 				// getPMSDownFileNum();
 				Looper.loop();
 			}

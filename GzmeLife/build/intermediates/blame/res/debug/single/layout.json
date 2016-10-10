@@ -16,12 +16,12 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\res\\layout\\actvitiy_person_data.xml"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_pms_device.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\layout\\item_lv_pms_device.xml"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_allfood.xml",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\layout\\activity_allfood.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_pms_device.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\layout\\item_lv_pms_device.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_pms_file.xml",
@@ -36,12 +36,12 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\actvitiy_person_data.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\layout\\actvitiy_person_data.xml"
-    },
-    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_food.xml",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\res\\layout\\activity_my_food.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\actvitiy_person_data.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\layout\\actvitiy_person_data.xml"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
@@ -68,24 +68,24 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\res\\layout\\fragment_goodfood_shicai.xml"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_second_classify.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\layout\\activity_second_classify.xml"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\item_text.xml",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\layout\\item_text.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_second_classify.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\layout\\activity_second_classify.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_pms_wifi.xml",
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\layout\\item_lv_pms_wifi.xml"
     },
     {
-        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_standard_foods_material_details.xml",
-        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\res\\layout\\activity_standard_foods_material_details.xml"
-    },
-    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_second_food_classify.xml",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\res\\layout\\activity_second_food_classify.xml"
+    },
+    {
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_standard_foods_material_details.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\res\\layout\\activity_standard_foods_material_details.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_webview_layout.xml",
@@ -140,12 +140,12 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\res\\layout\\item_lv_pms_error.xml"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_all_food_class.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\layout\\item_lv_all_food_class.xml"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_standard_foods_material_details.xml",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\layout\\activity_standard_foods_material_details.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\item_lv_all_food_class.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\layout\\item_lv_all_food_class.xml"
     },
     {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
@@ -204,12 +204,12 @@
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cooking_style.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\layout\\activity_cooking_style.xml"
-    },
-    {
         "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\my_cookbook.xml",
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\res\\layout\\my_cookbook.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cooking_style.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\layout\\activity_cooking_style.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\imageshower.xml",
@@ -240,20 +240,20 @@
         "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\res\\layout\\item_lv_faq.xml"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\social_sdk_library_project\\unspecified\\res\\layout\\messenger_button_send_blue_small.xml"
+        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\layout\\notification_template_lines.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\pop_tip_confirm.xml",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\layout\\pop_tip_confirm.xml"
     },
     {
-        "merged": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\layout\\notification_template_lines.xml"
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\social_sdk_library_project\\unspecified\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
@@ -308,12 +308,12 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\android-support-v7-appcompat\\unspecified\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_failed_load_page.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_failed_load_page.xml"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929_API21\\android-support-v7-appcompat\\unspecified\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_failed_load_page.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS_AS_20160929\\social_sdk_library_project\\unspecified\\res\\layout\\umeng_socialize_failed_load_page.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_base_alert_dialog_button.xml",
@@ -360,12 +360,12 @@
         "source": "D:\\Work\\Git\\PMS\\GzmeLife\\build\\intermediates\\exploded-aar\\PMS\\social_sdk_library_project\\unspecified\\res\\layout\\messenger_button_send_blue_small.xml"
     },
     {
-        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment_detail.xml",
-        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\layout\\activity_comment_detail.xml"
-    },
-    {
         "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_collection.xml",
         "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\layout\\activity_collection.xml"
+    },
+    {
+        "merged": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment_detail.xml",
+        "source": "D:\\Program Files\\Android\\workspace\\android\\PMS_AS_20160929_API21\\GzmeLife\\res\\layout\\activity_comment_detail.xml"
     },
     {
         "merged": "D:\\Program Files\\Android\\workspace\\PMS_AS_20160929\\GzmeLife\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_popwin_layout.xml",

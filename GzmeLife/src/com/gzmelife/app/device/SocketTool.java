@@ -828,31 +828,111 @@ public class SocketTool {
 
         /** 截获其他客户端动作 */
         if (buf[5] != Config.clientPort) {
+            Log.i(TAG, "-HHD-》》客户端地址不匹配，处理报文且读取其他用户指令");
+//			KappUtils.showToast(context, "其他客户端正在操作");
             switch (buf[3]) {
+
+//            case (byte) 0xF0:
+//                break;
+//
+//            case (byte) 0xF1:
+//                break;
+//
+//            case (byte) 0xF2:
+//                break;
+//
+//            case (byte) 0xF3:
+//            	if (buf[4] == 0x00) {
+//           		 Config.isOtherFile = true;
+//              } else if (buf[4] == 0x01) {
+//           	   Config.isOtherFile = true;
+//              } else if (buf[4] == 0x02) {//遍历完毕
+//           	   Config.isOtherFile = false;
+//              }
+//                break;
+//
+//            case (byte) 0xF4:
+//            	 if (buf[4] == 0x00) {//获取录波文件大小
+//            		 Config.isOtherFile = true;
+//               } else if (buf[4] == 0x01) {//上召录波数据
+//            	   Config.isOtherFile = true;
+//               } else if (buf[4] == 0x02) {//录波发送结束
+//            	   Config.isOtherFile = false;
+//               } else if (buf[4] == 0x03) {//中断文件传输
+//            	   Config.isOtherFile = false;
+//               }
+//            	break;
+//
+//            case (byte) 0xF5:
+//            	if (buf[4] == 0x00) {//下发录波文件大小
+//           		 Config.isOtherFile = true;
+//              } else if (buf[4] == 0x01) {//下发录波数据
+//           	   Config.isOtherFile = true;
+//              } else if (buf[4] == 0x02) {//数据发送结束
+//           	   Config.isOtherFile = false;
+//              } else if (buf[4] == 0x03) {//中断文件传输
+//           	   Config.isOtherFile = false;
+//              }
+//            	break;
+//
+//            case (byte) 0xF6:
+//            	if (buf[4] == 0x00) {//删除录波文件
+//              		 Config.isOtherFile = true;
+//                 } else if (buf[4] == 0x01) {//删除下载菜谱
+//              	   Config.isOtherFile = true;
+//                 }
+//            	break;
+//
+//            case (byte) 0xF7:
+//            	if (buf[4] == 0x00) {//查询状态
+//             		 Config.isOtherFile = true;
+//                }
+//            	break;
+//
+//            case (byte) 0xF8:
+//            	if (buf[4] == 0x00) {//连接确认
+//              		 Config.isOtherFile = true;
+//                 } else if (buf[4] == 0x01) {//抢占控制权
+//              	   Config.isOtherFile = true;
+//                 } else if (buf[4] == 0x02) {//心跳报文
+//              	   Config.isOtherFile = true;
+//                 } else if (buf[4] == 0x03) {//断开连接
+//              	   Config.isOtherFile = false;
+//                 }
+//            	break;
+
+
+
+
+
                 case (byte) 0xF3:
                     if (buf[4] == 0x00) {
-//                        Config.isOtherFile = true;//20160927
+                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】获取录波文件数量");
                         break;
                     } else if (buf[4] == 0x01) {
-                        Config.isOtherFile = true;//20160927
+                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】查询录波文件列表");
                         break;
                     } else if (buf[4] == 0x02) {
-                        Config.isOtherFile = false;//20160927
+                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】遍历完毕");
                         break;
                     }
                     break;
 
                 case (byte) 0xF4:
                     if (buf[4] == 0x00) {
+                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】获取录波文件大小");
                         break;
                     } else if (buf[4] == 0x01) {
+
                         Config.isOtherFile = true;//20160927
+
                         break;
                     } else if (buf[4] == 0x02) {
+                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】录波发送结束");
                         Config.isOtherFile = false;//20160927
                         break;
                     } else if (buf[4] == 0x03) {
-                        KappUtils.showToast(context, "【" + byte2HexString(buf[5]) + "】中断文件传输");
+                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】中断文件传输");
                         Config.isOtherFile = false;//20160927
                         break;
                     }
@@ -860,13 +940,15 @@ public class SocketTool {
 
                 case (byte) 0xF5:
                     if (buf[4] == 0x00) {
-                        //
+                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】获取录波文件大小");
                         break;
                     } else if (buf[4] == 0x01) {
-                        //
+
                         Config.isOtherFile = true;//20160927
                         break;
+
                     } else if (buf[4] == 0x02) {
+                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】数据发送结束");
                         Config.isOtherFile = false;//20160927
                         break;
                     }
@@ -874,10 +956,10 @@ public class SocketTool {
 
                 case (byte) 0xF6:
                     if (buf[4] == 0x00) {
-                        KappUtils.showToast(context, "【" + byte2HexString(buf[5]) + "】生成录波文件操作");
+                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】生成录波文件操作");
                         break;
                     } else if (buf[4] == 0x01) {
-                        KappUtils.showToast(context, "【" + byte2HexString(buf[5]) + "】删除APP下载菜谱文件操作");
+                        KappUtils.showToast(context, "【"+byte2HexString(buf[5])+"】删除APP下载菜谱文件操作");
                         break;
                     }
                     break;

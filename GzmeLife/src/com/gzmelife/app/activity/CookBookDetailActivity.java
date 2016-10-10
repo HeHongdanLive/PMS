@@ -326,6 +326,11 @@ public class CookBookDetailActivity extends BaseActivity implements OnClickListe
 					case 8:
 						ShowDialogUtil.setProgress(now, all);
 						if (TextUtils.isEmpty(Config.SERVER_HOST_NAME)) {
+
+							if (Config.isF5){
+								Config.isF5 = false;
+							}
+
 							closePDlg();
 							System.out.println("上传失败停止" + 1 + "");
 						}
@@ -460,6 +465,11 @@ public class CookBookDetailActivity extends BaseActivity implements OnClickListe
 				KappUtils.showToast(context, "暂未连接设备，请连接");
 			} else {
 				if (Config.isConnext = true) {
+
+					if (Config.isF5){
+						Config.isF5 = false;
+					}
+
 					sendFileToPMS();
 				}
 			}
@@ -485,6 +495,11 @@ public class CookBookDetailActivity extends BaseActivity implements OnClickListe
 				KappUtils.showToast(context, "暂未连接设备，请连接");
 			} else {
 				if (Config.isConnext = true) {
+
+					if (Config.isF5){
+						Config.isF5 = false;
+					}
+
 					sendFileToPMS();
 				}
 			}
@@ -658,7 +673,7 @@ public class CookBookDetailActivity extends BaseActivity implements OnClickListe
 	/**
 	 * 分享
 	 * 
-	 * @param headpath
+	 * @param //headpath
 	 */
 	private void uploadTempFile(String filepath, String fileName) {
 		Log.i(TAG, "uploadTempFile(String filepath, String fileName)-->" + filepath + "--" + fileName);
@@ -791,7 +806,7 @@ public class CookBookDetailActivity extends BaseActivity implements OnClickListe
 	/**
 	 * 上传菜谱文件到后台
 	 * 
-	 * @param headpath
+	 * @param //headpath
 	 */
 	private void checkPmsFile(String fileName) {
 		Log.i(TAG, "checkPmsFile(fileName)-->" + fileName);
@@ -876,7 +891,7 @@ public class CookBookDetailActivity extends BaseActivity implements OnClickListe
 	/**
 	 * 上传菜谱文件到后台
 	 * 
-	 * @param headpath
+	 * @param //headpath
 	 */
 	private void uploadHeadPortrait(String filepath, String fileName, String type) {
 
